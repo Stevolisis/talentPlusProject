@@ -9,7 +9,7 @@ module.exports = {
         bgEmailButton:'#054FB3',
         bgCompany:'#CCDBF0',
         bgBorder:'#5588CC',
-        bgSectionMarket:'#1E5DCE',
+        bgSectionMarket:'#1E5DCE 20%',
         bgWhole:'#F8F9FC',
         subGreen:'#AECD5E',
         subBlue:'#4C7FBD',
@@ -25,7 +25,10 @@ module.exports = {
         iconCoursePurple:'#4d442f',
         bgCourseBlue:'#4d442f',
         iconCourseBlue:'#4d442f',
-
+        txtLight:"#A1A1A1",
+        fontLogo:"Amazing Kids",
+        mainFont:"Clash Display",
+        txtlightFont:"Satoshi"
       },
     }
   },

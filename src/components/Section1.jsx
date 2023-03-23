@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import { FiArrowUpRight } from 'react-icons/fi';
 
 export default function Section1(){
 
     return(
         <>
-            <div className="bg-bgPrimary text-neutral px-24">
+            <div className="bg-bgPrimary text-neutral px-24 overflow-hidden">
                 <div className="py-10 flex justify-between items-center">
                     <div>
                         <p className="font-[AmazingKids] text-4xl">Tech Time</p>
@@ -27,8 +28,9 @@ export default function Section1(){
                         <div className="py-3 w-[400px]">
                             <p className="text-[13px] font-[SatoshiLight] text-[#E7E7E7]">Build Your Future With Our Quality Education. The Best And Largest All-In-One Online Tutoring Platform In The World</p>
                         </div>
-                        <div className="py-3">
-                            <button className="mr-5 font-[SatoshiMedium] text-[13px] py-[10px] px-[28px] text-neutral border-2 border-txtHeaderLight rounded-[4px]">Get Started Now</button>
+                        <div className="py-3 flex">
+                            <button className="flex items-center mr-5 font-[SatoshiMedium] text-[13px] py-[10px] px-[28px] text-neutral border-2 border-txtHeaderLight rounded-[4px]">
+                                Get Started Now <FiArrowUpRight size={16} className='ml-2'/></button>
                             <button className="font-[SatoshiMedium] text-[13px] py-[12px] px-[28px] bg-neutral text-bgPrimary rounded-[4px]">Enroll Now</button>
                         </div>
                         <div className="flex items-center">
@@ -46,8 +48,11 @@ export default function Section1(){
                         </div>
                     </div>
 
-                    <div className="flex-1 w-[400px] h-full">
-                        <img className="w-full h-full" src='/images/main.png' alt="7-good-reasons-why-choose-Canada-for-studying-abroad-University-Hub"/>
+                    <div className="flex-1  h-full">
+                        <img className="w-full h-full" src='/images/main.svg' alt="7-good-reasons-why-choose-Canada-for-studying-abroad-University-Hub"/>
+                        {/* <div className="absolute block">
+                            <img  src='/images/mainBulb.svg' alt="7-good-reasons-why-choose-Canada-for-studying-abroad-University-Hub"/>
+                        </div> */}
                     </div>
                 </div>
 

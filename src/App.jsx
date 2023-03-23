@@ -1,5 +1,5 @@
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import Section1 from './components/Section1';
+import Index from './containers';
 import './index.css'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Section1/>}/>
+        <Route path='/' element={<Index/>}/>
         <Route path='*' element={<div className='w-full h-[80vh] flex justify-center items-center font-[SatoshiBold] text-2xl'>Invalid Route</div>}/>
       </Routes>
       </BrowserRouter>

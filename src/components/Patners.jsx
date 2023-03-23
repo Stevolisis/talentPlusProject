@@ -5,11 +5,19 @@ export default function Patners(){
         <>
             <div className="h-[120px] bg-bgCompany flex items-center justify-around">
                 <div>
-                    <img src='/images/zoom.png' alt="patners"/>
+                    <img className="w-[100px] h-[60px]" src='/images/zoom.png' alt="patners"/>
                 </div>
-                <div className="flex">
-                    <img src='/images/dropbox.png' alt="patners"/>
-                    <img src='/images/dropbox2.png' alt="patners"/>
+                <div>
+                    <img className="w-[100px] h-[60px]" src='/images/stripelogo.png' alt="patners"/>
+                </div>
+                <div>
+                    <img className="w-[100px] h-[60px]" src='/images/mondaylogo.png' alt="patners"/>
+                </div>
+                <div>
+                    <img className="w-[100px] h-[60px]" src='/images/slacklogo.svg' alt="patners"/>
+                </div>
+                <div>
+                    <img className="w-[100px] h-[60px]" src='/images/dropboxlogo.png' alt="patners"/>
                 </div>
             </div>
         </>

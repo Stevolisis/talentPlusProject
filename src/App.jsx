@@ -1,11 +1,20 @@
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import Section1 from './components/Section1';
 import './index.css'
 
 function App() {
 
   return (
-    <div className="w-[400px] h-[400px] bg-bgPrimary">
-      <p className="text-blue-300 text-4xl">Hi</p>
-    </div>
+
+    <>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Section1/>}/>
+        <Route path='*' element={<div className='w-full h-[80vh] flex justify-center items-center font-[SatoshiBold] text-2xl'>Invalid Route</div>}/>
+      </Routes>
+      </BrowserRouter>
+    </>
+
   )
 }
 

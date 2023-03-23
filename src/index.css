@@ -5,4 +5,63 @@
 *{
   margin: 0;
   padding: 0;
+  /* color: rgba(30, 93, 206, .2);
+  color: rgba(63, 169, 106, .2);
+  color: rgba(246, 158, 142, .2); */
+}
+
+@layer base {
+  @font-face {
+    font-family: SatoshiBold;
+    font-weight: 400;
+    src: url(/fonts/Satoshi-Bold.otf);
+  }
+
+  @font-face {
+    font-family: SatoshiBlack;
+    font-weight: 400;
+    src: url(/fonts/Satoshi-Black.otf);
+  }
+
+  @font-face {
+    font-family: SatoshiBold;
+    font-weight: 400;
+    src: url(/fonts/Satoshi-Bold.otf);
+  }
+
+  @font-face {
+    font-family: SatoshiMedium;
+    font-weight: 400;
+    src: url(/fonts/Satoshi-Medium.otf);
+  }
+
+  @font-face {
+    font-family: SatoshiRegular;
+    font-weight: 400;
+    src: url(/fonts/Satoshi-Regular.otf);
+  }
+
+  @font-face {
+    font-family: SatoshiLight;
+    font-weight: 400;
+    src: url(/fonts/Satoshi-Light.otf);
+  }
+
+  @font-face {
+    font-family: ClashDisplayBold;
+    font-weight: 400;
+    src: url(/fonts/ClashDisplay-Bold.otf);
+  }
+
+  @font-face {
+    font-family: ClashDisplaySemibold;
+    font-weight: 400;
+    src: url(/fonts/ClashDisplay-Semibold.otf);
+  }
+
+  @font-face {
+    font-family: AmazingKids;
+    font-weight: 400;
+    src: url(/fonts/Amazing-Kids.ttf);
+  }
 }

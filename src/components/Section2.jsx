@@ -4,7 +4,7 @@ export default function Section2(){
 
     return(
         <>
-            <div className="flex px-32  pb-28 bg-bgWhole items-center">
+            <div className="flex px-32 pb-28 bg-bgWhole items-center">
                 <div className='flex-1'>
                     <div className='pt-32'>
                         <p className='pr-12 font-[ClashDisplayBold] text-bgSecondary text-[2.7rem] leading-[55px]'>High quality video, audio & live classes</p>
@@ -30,7 +30,7 @@ export default function Section2(){
                         </div>
                         <div className='mr-4 mb-4 rounded-[5px] flex items-center bg-neutral py-4 pl-2 pr-10 w-auto'>
                             <p className='p-[6px] bg-bgCoursePurple rounded-[2px] mx-3'>
-                                <MdOutlineRotateRight className='text-[12px] text-iconCoursePurple'/>
+                                <MdSettingsInputAntenna className='text-[12px] text-iconCoursePurple'/>
                             </p>
                             <p className='font-[SatoshiMedium] text-bgSecondary text-[13px]'>Recorded Classes</p>
                         </div>

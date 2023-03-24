@@ -5,7 +5,7 @@ export default function Section1(){
 
     return(
         <>
-            <section className="bg-bgPrimary text-neutral px-24 overflow-hidden">
+            <section className="bg-bgPrimary text-neutral px-24 overflow-hidden bg-[url('/images/mainwave.png')] bg-cover">
                 <div className="py-10 flex justify-between items-center">
                     <div>
                         <h1 className="font-[AmazingKids] text-4xl text-neutral">Tech Time</h1>

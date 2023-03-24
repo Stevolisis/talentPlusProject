@@ -71,7 +71,7 @@ export default function Course({filter}){
                                 </div>
                             </div>
 
-                            <div className="flex justify-between items-center pt-7">
+                            <div className="flex justify-between items-center pt-7 pb-2">
                                 <div className="flex items-center">
                                     <img className="w-8 h-8 rounded-full" src={list.author.profile_img} alt="victor"/>
                                     <p className="ml-2 text-xs font-[SatoshiBold] text-black">{list.author.name}</p>

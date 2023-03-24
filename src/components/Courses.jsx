@@ -3,7 +3,7 @@ import Course from "./Course";
 
 
 export default function Courses(){
-    const [filter,setFilter]=useState('All')
+    const [filter,setFilter]=useState('All');
 
     return(
         <>
@@ -18,19 +18,20 @@ export default function Courses(){
 
                 <div className="">
                     <div className="py-9 flex justify-center items-center w-full">
-                        <button onClick={()=>setFilter('All')} className="text-[12px] rounded font-[SatoshiBold]
-                         bg-neutral mx-3 py-[10px] px-[16px] text-bgPrimary">All Categories</button>
-                        <button onClick={()=>setFilter('Design')} className="text-[12px] rounded font-[SatoshiBold] 
-                        mx-3 py-[10px] px-[16px] text-txtLight">Design</button>
-                        <button onClick={()=>setFilter('Development')} className="text-[12px] rounded font-[SatoshiBold]
-                         mx-3 py-[10px] px-[16px] text-txtLight">Development</button>
-                        <button onClick={()=>setFilter('Marketing')} className="text-[12px] rounded font-[SatoshiBold]
-                         mx-3 py-[10px] px-[16px] text-txtLight">Marketing</button>
+                        <button onClick={()=>setFilter('All')} className={`text-[12px] rounded font-[SatoshiBold]
+                          mx-3 py-[10px] px-[16px] ${filter==='All' ? 'bg-neutral text-bgPrimary' : 'bg-none text-txtLight' }`}>All Categories</button>
+                        <button onClick={()=>setFilter('Design')} className={`text-[12px] rounded font-[SatoshiBold] 
+                        mx-3 py-[10px] px-[16px] ${filter==='Design' ? 'bg-neutral text-bgPrimary' : 'bg-none text-txtLight' }`}>Design</button>
+                        <button onClick={()=>setFilter('Development')} className={`text-[12px] rounded font-[SatoshiBold]
+                         mx-3 py-[10px] px-[16px] ${filter==='Development' ? 'bg-neutral text-bgPrimary' : 'bg-none text-txtLight' }`}>Development</button>
+                        <button onClick={()=>setFilter('Marketing')} className={`text-[12px] rounded font-[SatoshiBold]
+                         mx-3 py-[10px] px-[16px] ${filter==='Marketing' ? 'bg-neutral text-bgPrimary' : 'bg-none text-txtLight' }`}>Marketing</button>
                     </div>
 
-                    <div className="grid grid-cols-3 pb-4">
+                    <div className="grid grid-cols-3 pb-5">
                         <Course filter={filter}/>
                     </div>
+
                     <div className="flex justify-center items-center">
                         <button className="px-6 py-3 bg-bgPrimary rounded text-neutral text-xs font-[SatoshiMedium]">Explore All Courses</button>
                     </div>

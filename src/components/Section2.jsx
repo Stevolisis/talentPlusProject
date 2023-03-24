@@ -4,9 +4,9 @@ export default function Section2(){
 
     return(
         <>
-            <div className="flex px-32 pt-20 pb-28 bg-bgWhole items-center">
+            <div className="flex px-32  pb-28 bg-bgWhole items-center">
                 <div className='flex-1'>
-                    <div>
+                    <div className='pt-32'>
                         <p className='pr-12 font-[ClashDisplayBold] text-bgSecondary text-[2.7rem] leading-[55px]'>High quality video, audio & live classes</p>
                     </div>
                     <div>
@@ -15,18 +15,30 @@ export default function Section2(){
                     <div className='py-3'>
                         <button className='rounded-[4px] bg-bgPrimary font-[SatoshiMedium] py-[12px] px-[28px] text-[12px] text-neutral'>View Courses</button>
                     </div>
-                    <div className='py-2 flex'>
-                        <div className='mr-4 rounded-[5px] flex items-center bg-neutral py-4 pl-2 pr-10 w-auto'>
+                    <div className='py-2 pr-32 flex flex-wrap'>
+                        <div className='mr-4 mb-4 rounded-[5px] flex items-center bg-neutral py-4 pl-2 pr-10 w-auto'>
                             <p className='p-[6px] bg-bgCourseGreen rounded-[2px] mx-3'>
                                 <MdVolumeUp className='text-[12px] text-iconCourseGreen'/>
                             </p>
                             <p className='font-[SatoshiMedium] text-bgSecondary text-[13px]'>Audio Classes</p>
                         </div>
-                        <div className='mr-4 rounded-[5px] flex items-center bg-neutral py-4 pl-2 pr-10 w-auto'>
-                            <p className='p-[6px] bg-bgCourseGreen rounded-[2px] mx-3'>
-                                <MdVolumeUp className='text-[12px] text-iconCourseGreen'/>
+                        <div className='mr-4 mb-4 rounded-[5px] flex items-center bg-neutral py-4 pl-2 pr-10 w-auto'>
+                            <p className='p-[6px] bg-bgCourseOrange rounded-[2px] mx-3'>
+                                <MdSettingsInputAntenna className='text-[12px] text-iconCourseOrange'/>
                             </p>
                             <p className='font-[SatoshiMedium] text-bgSecondary text-[13px]'>Live Classes</p>
+                        </div>
+                        <div className='mr-4 mb-4 rounded-[5px] flex items-center bg-neutral py-4 pl-2 pr-10 w-auto'>
+                            <p className='p-[6px] bg-bgCoursePurple rounded-[2px] mx-3'>
+                                <MdOutlineRotateRight className='text-[12px] text-iconCoursePurple'/>
+                            </p>
+                            <p className='font-[SatoshiMedium] text-bgSecondary text-[13px]'>Recorded Classes</p>
+                        </div>
+                        <div className='mr-4 mb-4 rounded-[5px] flex items-center bg-neutral py-4 pl-2 pr-10 w-auto'>
+                            <p className='p-[6px] bg-bgCourseBlue rounded-[2px] mx-3'>
+                                <MdOutlineDescription className='text-[12px] text-iconCourseBlue'/>
+                            </p>
+                            <p className='font-[SatoshiMedium] text-bgSecondary text-[13px]'>50+ Notes</p>
                         </div>
                     </div>
                 </div>

@@ -8,7 +8,7 @@ export default function Section1(){
             <div className="bg-bgPrimary text-neutral px-24 overflow-hidden">
                 <div className="py-10 flex justify-between items-center">
                     <div>
-                        <p className="font-[AmazingKids] text-4xl">Tech Time</p>
+                        <p className="font-[AmazingKids] text-4xl text-neutral">Tech Time</p>
                     </div>
                     <div className="flex items-center font-[SatoshiMedium] text-[13px]">
                         <Link to='/' className="mx-3">Home</Link>
@@ -23,7 +23,7 @@ export default function Section1(){
                 <div className="h-[600px] flex justify-evenly items-end">
                     <div className="flex-1 h-full flex flex-col justify-center items-start">
                         <div>
-                            <p className="leading-[63px] font-[ClashDisplayBold] text-[3.05rem]">Grow your skills to advance your career path</p>
+                            <p className="leading-[63px] font-[ClashDisplayBold] text-[3.05rem] text-neutral">Grow your skills to advance your career path</p>
                         </div>
                         <div className="py-3 w-[400px]">
                             <p className="text-[13px] font-[SatoshiLight] text-[#E7E7E7]">Build Your Future With Our Quality Education. The Best And Largest All-In-One Online Tutoring Platform In The World</p>

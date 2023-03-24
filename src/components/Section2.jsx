@@ -4,7 +4,7 @@ export default function Section2(){
 
     return(
         <>
-            <div className="flex px-32 pb-28 bg-bgWhole items-center">
+            <div className="flex px-32 pb-10 bg-bgWhole items-center">
                 <div className='flex-1'>
                     <div className='pt-32'>
                         <p className='pr-12 font-[ClashDisplayBold] text-bgSecondary text-[2.7rem] leading-[55px]'>High quality video, audio & live classes</p>

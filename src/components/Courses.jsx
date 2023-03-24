@@ -28,8 +28,11 @@ export default function Courses(){
                          mx-3 py-[10px] px-[16px] text-txtLight">Marketing</button>
                     </div>
 
-                    <div className="grid grid-cols-3">
+                    <div className="grid grid-cols-3 pb-4">
                         <Course filter={filter}/>
+                    </div>
+                    <div className="flex justify-center items-center">
+                        <button className="px-6 py-3 bg-bgPrimary rounded text-neutral text-xs font-[SatoshiMedium]">Explore All Courses</button>
                     </div>
                 </div>
             </section>

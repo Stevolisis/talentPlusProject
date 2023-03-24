@@ -16,7 +16,7 @@ export default function Section1(){
                         <Link to='/' className="mx-3 text-txtHeaderLight">Courses</Link>
                         <Link to='/' className="mx-3 text-txtHeaderLight">Testimonial</Link>
                         <Link to='/' className="mx-3 text-txtHeaderLight">Community</Link>
-                        <Link to='/' className="ml-3 py-[12px] px-[28px] bg-neutral text-bgPrimary rounded-[4px]">Enroll Now</Link>
+                        <Link to='/' className="ml-3 py-[12px] px-[28px] bg-neutral text-bgPrimary rounded">Enroll Now</Link>
                     </div>
                 </div>
 
@@ -29,9 +29,9 @@ export default function Section1(){
                             <p className="text-[13px] font-[SatoshiLight] text-[#E7E7E7]">Build Your Future With Our Quality Education. The Best And Largest All-In-One Online Tutoring Platform In The World</p>
                         </div>
                         <div className="py-3 flex">
-                            <button className="flex items-center mr-5 font-[SatoshiMedium] text-[13px] py-[10px] px-[28px] text-neutral border-2 border-txtHeaderLight rounded-[4px]">
+                            <button className="flex items-center mr-5 font-[SatoshiMedium] text-[13px] py-[10px] px-[28px] text-neutral border-2 border-txtHeaderLight rounded">
                                 Get Started Now <FiArrowUpRight size={16} className='ml-2'/></button>
-                            <button className="font-[SatoshiMedium] text-[13px] py-[12px] px-[28px] bg-neutral text-bgPrimary rounded-[4px]">Enroll Now</button>
+                            <button className="font-[SatoshiMedium] text-[13px] py-[12px] px-[28px] bg-neutral text-bgPrimary rounded">Enroll Now</button>
                         </div>
                         <div className="flex items-center">
                             <div className="flex items-center">

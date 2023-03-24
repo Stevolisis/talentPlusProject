@@ -1,6 +1,9 @@
+import { useState } from "react";
+import Course from "./Course";
 
 
 export default function Courses(){
+    const [filter,setFilter]=useState('All')
 
     return(
         <>
@@ -11,6 +14,23 @@ export default function Courses(){
                     High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 
                     Definition. While There's No Standard Meaning For High Definition, Generally Any Standard Video Image.
                     </p>
+                </div>
+
+                <div className="">
+                    <div className="py-9 flex justify-center items-center w-full">
+                        <button onClick={()=>setFilter('All')} className="text-[12px] rounded font-[SatoshiBold]
+                         bg-neutral mx-3 py-[10px] px-[16px] text-bgPrimary">All Categories</button>
+                        <button onClick={()=>setFilter('Design')} className="text-[12px] rounded font-[SatoshiBold] 
+                        mx-3 py-[10px] px-[16px] text-txtLight">Design</button>
+                        <button onClick={()=>setFilter('Development')} className="text-[12px] rounded font-[SatoshiBold]
+                         mx-3 py-[10px] px-[16px] text-txtLight">Development</button>
+                        <button onClick={()=>setFilter('Marketing')} className="text-[12px] rounded font-[SatoshiBold]
+                         mx-3 py-[10px] px-[16px] text-txtLight">Marketing</button>
+                    </div>
+
+                    <div className="grid grid-cols-3">
+                        <Course filter={filter}/>
+                    </div>
                 </div>
             </section>
         </>

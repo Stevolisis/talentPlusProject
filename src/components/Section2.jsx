@@ -13,29 +13,29 @@ export default function Section2(){
                         <p className='pr-32 leading-6 py-3 text-[13px] font-[SatoshiLight] text-txtLight'>High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No Standard Meaning For High Definition, Generally Any Standard Video Image</p>
                     </div>
                     <div className='py-3'>
-                        <button className='rounded-[4px] bg-bgPrimary font-[SatoshiBold] py-[12px] px-[28px] text-[12px] text-neutral'>View Courses</button>
+                        <button className='rounded bg-bgPrimary font-[SatoshiBold] py-[12px] px-[28px] text-[12px] text-neutral'>View Courses</button>
                     </div>
                     <div className='py-2 pr-32 flex flex-wrap'>
                         <div className='mr-4 mb-4 rounded-[5px] flex items-center bg-neutral py-4 pl-2 pr-10 w-auto'>
-                            <p className='p-[6px] bg-bgCourseGreen rounded-[2px] mx-3'>
+                            <p className='p-[6px] bg-bgCourseGreen rounded-sm mx-3'>
                                 <MdVolumeUp className='text-[12px] text-iconCourseGreen'/>
                             </p>
                             <p className='font-[SatoshiBold] text-bgSecondary text-[13px]'>Audio Classes</p>
                         </div>
                         <div className='mr-4 mb-4 rounded-[5px] flex items-center bg-neutral py-4 pl-2 pr-10 w-auto'>
-                            <p className='p-[6px] bg-bgCourseOrange rounded-[2px] mx-3'>
+                            <p className='p-[6px] bg-bgCourseOrange rounded-sm mx-3'>
                                 <MdSettingsInputAntenna className='text-[12px] text-iconCourseOrange'/>
                             </p>
                             <p className='font-[SatoshiBold] text-bgSecondary text-[13px]'>Live Classes</p>
                         </div>
                         <div className='mr-4 mb-4 rounded-[5px] flex items-center bg-neutral py-4 pl-2 pr-10 w-auto'>
-                            <p className='p-[6px] bg-bgCoursePurple rounded-[2px] mx-3'>
+                            <p className='p-[6px] bg-bgCoursePurple rounded-sm mx-3'>
                                 <MdSettingsInputAntenna className='text-[12px] text-iconCoursePurple'/>
                             </p>
                             <p className='font-[SatoshiBold] text-bgSecondary text-[13px]'>Recorded Classes</p>
                         </div>
                         <div className='mr-4 mb-4 rounded-[5px] flex items-center bg-neutral py-4 pl-2 pr-10 w-auto'>
-                            <p className='p-[6px] bg-bgCourseBlue rounded-[2px] mx-3'>
+                            <p className='p-[6px] bg-bgCourseBlue rounded-sm mx-3'>
                                 <MdOutlineDescription className='text-[12px] text-iconCourseBlue'/>
                             </p>
                             <p className='font-[SatoshiBold] text-bgSecondary text-[13px]'>50+ Notes</p>

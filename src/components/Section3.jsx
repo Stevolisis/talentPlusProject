@@ -21,7 +21,7 @@ export default function Section3(){
 
                 <div className="flex-1 grid grid-cols-2 flex-wrap pl-24">
                     <div className="flex-1 px-4 rounded-md m-2 bg-neutral pb-6">
-                        <div className="p-2 bg-subBlue rounded-[4px] my-6 w-9"><MdOutlineCastForEducation className="text-neutral text-[18px]"/></div>
+                        <div className="p-2 bg-subBlue rounded my-6 w-9"><MdOutlineCastForEducation className="text-neutral text-[18px]"/></div>
                         <div>
                             <p className="font-[SatoshiBold] py-1 text-bgSecondary t2xt-[12px]">Experienced Mentors</p>
                             <p className="font-[SatoshiLight] text-txtLight leading-6 text-[10px]">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 
@@ -32,7 +32,7 @@ export default function Section3(){
                     </div>
 
                     <div className="flex-1 px-4 rounded-md m-2 bg-neutral pb-6">
-                        <div className="p-2 bg-subGreen rounded-[4px] my-6 w-9"><MdOutlineAccessTimeFilled className="text-neutral text-[18px]"/></div>
+                        <div className="p-2 bg-subGreen rounded my-6 w-9"><MdOutlineAccessTimeFilled className="text-neutral text-[18px]"/></div>
                         <div>
                             <p className="font-[SatoshiBold] text-bgSecondary text-[12px]">One-On-One Meetings</p>
                             <p className="font-[SatoshiLight] text-txtLight leading-6 text-[11px]">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 
@@ -43,7 +43,7 @@ export default function Section3(){
                     </div>
 
                     <div className="flex-1 px-4 rounded-md m-2 bg-neutral pb-6">
-                        <div className="p-2 bg-subGreen rounded-[4px] my-6 w-9"><MdGroups2 className="text-neutral text-[18px]"/></div>
+                        <div className="p-2 bg-subPink rounded my-6 w-9"><MdGroups2 className="text-neutral text-[18px]"/></div>
                         <div>
                             <p className="font-[SatoshiBold] text-bgSecondary text-[12px]">One-On-One Meetings</p>
                             <p className="font-[SatoshiLight] text-txtLight leading-6 text-[10px]">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 
@@ -54,7 +54,7 @@ export default function Section3(){
                     </div>
 
                     <div className="flex-1 px-4 rounded-md m-2 bg-neutral pb-6">
-                        <div className="p-2 bg-subGreen rounded-[4px] my-6 w-9"><MdOutlineLocalAtm className="text-neutral text-[18px]"/></div>
+                        <div className="p-2 bg-subOrange rounded my-6 w-9"><MdOutlineLocalAtm className="text-neutral text-[18px]"/></div>
                         <div>
                             <p className="font-[SatoshiBold] text-bgSecondary text-[12px]">Affordable Prices</p>
                             <p className="font-[SatoshiLight] text-txtLight leading-6 text-[10px]">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 

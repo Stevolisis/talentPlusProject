@@ -5,10 +5,10 @@ export default function Section1(){
 
     return(
         <>
-            <div className="bg-bgPrimary text-neutral px-24 overflow-hidden">
+            <section className="bg-bgPrimary text-neutral px-24 overflow-hidden">
                 <div className="py-10 flex justify-between items-center">
                     <div>
-                        <p className="font-[AmazingKids] text-4xl text-neutral">Tech Time</p>
+                        <h1 className="font-[AmazingKids] text-4xl text-neutral">Tech Time</h1>
                     </div>
                     <div className="flex items-center font-[SatoshiMedium] text-[13px]">
                         <Link to='/' className="mx-3">Home</Link>
@@ -56,7 +56,7 @@ export default function Section1(){
                     </div>
                 </div>
 
-            </div>
+            </section>
         </>
     )
 }

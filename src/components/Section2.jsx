@@ -4,10 +4,10 @@ export default function Section2(){
 
     return(
         <>
-            <div className="flex px-32 pb-10 bg-bgWhole items-center">
+            <section className="flex px-32 pb-10 bg-bgWhole items-center">
                 <div className='flex-1'>
                     <div className='pt-32'>
-                        <p className='pr-12 font-[ClashDisplayBold] text-bgSecondary text-[2.7rem] leading-[55px]'>High quality video, audio & live classes</p>
+                        <h1 className='pr-12 font-[ClashDisplayBold] text-bgSecondary text-[2.7rem] leading-[55px]'>High quality video, audio & live classes</h1>
                     </div>
                     <div>
                         <p className='pr-32 leading-6 py-3 text-[13px] font-[SatoshiLight] text-txtLight'>High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No Standard Meaning For High Definition, Generally Any Standard Video Image</p>
@@ -50,7 +50,7 @@ export default function Section2(){
                         <img className='mt-[100px] ml-[-150px] mb-[-80px] w-[310px] min-w-[310px]  h-[200px]' src='/images/sec23.png' alt='section23'/>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

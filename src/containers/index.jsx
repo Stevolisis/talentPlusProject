@@ -1,4 +1,5 @@
 import Courses from "../components/Courses";
+import Faq from "../components/Faq";
 import Patners from "../components/Patners";
 import Reviews from "../components/Reviews";
 import Section1 from "../components/Section1";
@@ -18,6 +19,7 @@ export default function Index(){
             <Courses/>
             <Reviews/>
             <Section4/>
+            <Faq/>
         </>
     )
 }

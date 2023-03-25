@@ -11,7 +11,7 @@ export default function Section4(){
                 </div>
 
                 <div>
-                    <img className="w-[760px] h-[355px]" src='/images/communitymain.png' alt="community"/>
+                    <img className="w-[760px] h-[300px] md:h-[355px]" src='/images/communitymain.png' alt="community"/>
                 </div>
 
                 <div className="pt-7">

@@ -33,7 +33,7 @@ export default function Faq(){
 
     return(
         <>
-            <div className="px-48 lg:px-72 py-16 bg-bgWhole">
+            <div className="px-20 md:px-48 lg:px-72 py-12 md:py-16 bg-bgWhole">
                 <div className="px-24 flex justify-center items-center flex-col">
                     <h1 className="text-center font-[ClashDisplayBold] text-bgSecondary text-[2.7rem] leading-[55px]">Frequently Asked Questions</h1>                   
                     <p className="w-[550px] text-center leading-6 py-3 text-[13px] font-[SatoshiLight] text-txtLight">
@@ -42,7 +42,7 @@ export default function Faq(){
                     </p>
                 </div>
                 
-                <div className="pt-12">
+                <div className="pt-2 md:pt-12">
                     {
                         faqList.map((list,i)=>{
                             return <Accordion key={i} id={i} question={list.question} answer={list.answer} toggle={toggle} setToggle={setToggle}/>

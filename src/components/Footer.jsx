@@ -5,7 +5,7 @@ export default function Footer(){
 
     return( 
     <>
-        <footer className="bg-bgSecondary text-neutral px-24 pt-28 pb-24 flex flex-wrap lg:flex-row justify-between">
+        <footer className="bg-bgSecondary text-neutral px-16 md:px-24 pt-28 pb-24 flex flex-wrap lg:flex-row justify-between">
             <div className="mx-3"> 
                 <div>
                     <h2 className="py-2 font-[AmazingKids] text-4xl text-neutral">Tech Time</h2>
@@ -53,8 +53,8 @@ export default function Footer(){
                 <div className="py-5 font-[SatoshiLight]">
                     <input type='email' placeholder="Nft123@gmail.com" 
                     className="border placeholder-[#424141] outline-none border-bgPrimary w-[213px] bg-emailInputGrayIcons 
-                    py-2 px-3 text-[11px]"/>
-                    <button className=" bg-bgPrimary py-[9px] px-3 text-[11px] rounded-sm">Send Message</button>
+                    py-[13px] px-5 md:py-2 md:px-3 text-[11px]"/>
+                    <button className=" bg-bgPrimary py-[14px] px-7 md:py-[9px] md:px-3 text-[11px] rounded-sm">Send Message</button>
                 </div>
             </div>
         </footer>

@@ -54,7 +54,7 @@ export default function Reviews(){
 
     return(
         <>
-            <div className="pt-16 pb-10 bg-bgWhole">
+            <div className="py-10 pt-16 pb-10 bg-bgWhole">
                 <div className="px-12 md:px-24 flex justify-center items-center flex-col">
                     <h1 className="text-center font-[ClashDisplayBold] text-bgSecondary text-[2.7rem] leading-[55px]">What Our Clients Are Saying</h1>                   
                     <p className="w-[550px] text-center leading-6 py-3 text-[13px] font-[SatoshiLight] text-txtLight">

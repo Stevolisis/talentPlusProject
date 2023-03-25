@@ -4,18 +4,23 @@ export default function Section2(){
 
     return(
         <>
-            <section className="flex px-32 pb-10 bg-bgWhole items-center">
-                <div className='flex-1'>
+            <section className="flex px-32 pb-10 bg-bgWhole items-center flex-col lg:flex-row">
+                
+                <div className='flex-1 flex flex-col justify-center items-center pb-7 lg:py-0'>
                     <div className='pt-32'>
-                        <h1 className='pr-12 font-[ClashDisplayBold] text-bgSecondary text-[2.7rem] leading-[55px]'>High quality video, audio & live classes</h1>
+                        {/* <div className='absolute'>
+                            <img className='w-12 mt-44' src='/images/sec213ziggreen.png' alt='section21'/>
+                        </div> */}
+                        <h1 className='text-center lg:text-left lg:pr-12 font-[ClashDisplayBold] text-bgSecondary text-[2.7rem] leading-[55px]'>High quality video, audio & live classes</h1>
                     </div>
                     <div>
-                        <p className='pr-32 leading-6 py-3 text-[13px] font-[SatoshiLight] text-txtLight'>High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No Standard Meaning For High Definition, Generally Any Standard Video Image</p>
+                        <p className='text-center lg:text-left lg:pr-32 leading-6 py-3 text-[13px] font-[SatoshiLight] text-txtLight'>High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No Standard Meaning For High Definition, Generally Any Standard Video Image</p>
                     </div>
-                    <div className='py-3'>
+                    <div className='py-5 lg:py-3'>
                         <button className='rounded bg-bgPrimary font-[SatoshiBold] py-[12px] px-[28px] text-[12px] text-neutral'>View Courses</button>
                     </div>
-                    <div className='py-2 pr-32 flex flex-wrap'>
+
+                    <div className='py-2 lg:pr-32 flex flex-wrap justify-center lg:justify-start'>
                         <div className='mr-4 mb-4 rounded-[5px] flex items-center bg-neutral py-4 pl-2 pr-10 w-auto'>
                             <p className='p-[6px] bg-bgCourseGreen rounded-sm mx-3'>
                                 <MdVolumeUp className='text-[12px] text-iconCourseGreen'/>
@@ -43,14 +48,24 @@ export default function Section2(){
                     </div>
                 </div>
 
-                <div className='flex-2 flex items-end pl-1'>
-                    <div><img className='w-[480px] h-[410px] min-w-[480px]' src='/images/sec21.png' alt='section21'/></div>
+                <div className='flex-2 flex lg:items-end pl-1'>
+                    <div>
+                    <img className='' src='/images/sec21.png' alt='section21'/>
+                    </div>
+                    {/* <div className='absolute right-0'>
+                        <img className='w-12 h-12 mt-44' src='/images/sec213ziggreen.png' alt='section21'/>
+                    </div>
+                    <div className='absolute right-0'>
+                        <img className='w-20 h-20 mt-44' src='/images/sec213donut.png' alt='section21'/>
+                    </div> */}
                     <div className='absolute'>
                         <img className='w-[220px] h-[62px] ml-[-70px]' src='/images/sec22.png' alt='section22'/>
                         <img className='mt-[100px] ml-[-150px] mb-[-80px] w-[310px] min-w-[310px]  h-[200px]' src='/images/sec23.png' alt='section23'/>
                     </div>
+                    
                 </div>
             </section>
+            
         </>
     )
 }

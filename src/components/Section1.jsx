@@ -22,6 +22,17 @@ export default function Section1(){
 
                 <div className="h-[600px] flex justify-evenly items-end">
                     <div className="flex-1 h-full flex flex-col justify-center items-start">
+                        
+                        <div className="absolute top-[390px] left-12 ml-[-50px] block">
+                            <img  className="w-12 h-12 object-contain" src='/images/zigzagmain.png' alt="arrowmain"/>
+                        </div>
+                        <div className="absolute top-44 left-44 ml-[-50px] block">
+                            <img  className="w-3 h-3 object-contain" src='/images/donutmain.png' alt="arrowmain"/>
+                        </div>
+                        <div className="absolute top-48 left-[40vw] ml-[-50px] block">
+                            <img  className="w-2 h-2 object-contain" src='/images/circlemain.png' alt="arrowmain"/>
+                        </div>
+                        
                         <div>
                             <p className="leading-[63px] font-[ClashDisplayBold] text-[3.05rem] text-neutral">Grow your skills to advance your career path</p>
                         </div>
@@ -49,10 +60,10 @@ export default function Section1(){
                     </div>
 
                     <div className="flex-1  h-full">
-                        <img className="w-full h-full" src='/images/main.svg' alt="7-good-reasons-why-choose-Canada-for-studying-abroad-University-Hub"/>
-                        {/* <div className="absolute block">
-                            <img  src='/images/mainBulb.svg' alt="7-good-reasons-why-choose-Canada-for-studying-abroad-University-Hub"/>
-                        </div> */}
+                        <img className="w-full h-full object-contain" src='/images/main2.png' alt="arrowmain"/>
+                        <div className="absolute top-[450px] ml-[-50px] block">
+                            <img  className="w-36 h-36 object-contain" src='/images/arrowmain.png' alt="arrowmain"/>
+                        </div>
                     </div>
                 </div>
 

@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import { FiArrowUpRight } from 'react-icons/fi';
 
 export default function Section1(){
-
+console.log(window.innerWidth)
     return(
         <>
-            <section className="bg-bgPrimary text-neutral px-24 bg-[url('/images/mainwave.png')] bg-cover">
+            <section className="bg-bgPrimary text-neutral px-12 md:px-24 bg-[url('/images/mainwave.png')] bg-cover">
                 <div className="py-10 flex justify-between items-center">
                     <div>
                         <h1 className="font-[AmazingKids] text-4xl text-neutral">Tech Time</h1>

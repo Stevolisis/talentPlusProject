@@ -5,7 +5,7 @@ export default function Section3(){
 
     return(
         <>
-            <section className="bg-bgWhole px-24 py-16 pb-0 lg:pb-16 flex items-center flex-col lg:flex-row">
+            <section className="bg-bgWhole  px-12 md:px-24 py-16 pb-0 lg:pb-16 flex items-center flex-col lg:flex-row">
 
                 <div className="flex-1">
                     <div>

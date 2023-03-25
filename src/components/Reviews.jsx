@@ -55,7 +55,7 @@ export default function Reviews(){
     return(
         <>
             <div className="pt-16 pb-10 bg-bgWhole">
-                <div className="px-24 flex justify-center items-center flex-col">
+                <div className="px-12 md:px-24 flex justify-center items-center flex-col">
                     <h1 className="text-center font-[ClashDisplayBold] text-bgSecondary text-[2.7rem] leading-[55px]">What Our Clients Are Saying</h1>                   
                     <p className="w-[550px] text-center leading-6 py-3 text-[13px] font-[SatoshiLight] text-txtLight">
                     High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 
@@ -66,7 +66,7 @@ export default function Reviews(){
                 <div className="py-7 overflow-x-auto flex scroll-smooth scrollbar-hide">
                     {
                         reviewList.map((review,i)=>{
-                            return  <div key={i} className='bg-neutral px-5 py-7 w-[460px] min-w-[460px] mx-2 rounded-3xl'>
+                            return  <div key={i} className='bg-neutral px-5 py-7 w-[390px] min-w-[390px] md:w-[420px] md:min-w-[420px] lg:w-[460px] lg:min-w-[460px] mx-2 rounded-3xl'>
                                         <div>
                                             <p className="font-[SatoshiLight] text-txtLight leading-5 text-[11px]">{review.comment}</p>
                                         </div>

@@ -4,10 +4,10 @@ export default function Section2(){
 
     return(
         <>
-            <section className="flex px-32 pb-10 bg-bgWhole items-center flex-col lg:flex-row">
+            <section className="flex px-14 md:px-32 pb-10 bg-bgWhole items-center flex-col lg:flex-row">
                 
                 <div className='flex-1 flex flex-col justify-center items-center pb-7 lg:py-0'>
-                    <div className='pt-32'>
+                    <div className='pt-12 md:pt-20 lg:pt-32'>
                         {/* <div className='absolute'>
                             <img className='w-12 mt-44' src='/images/sec213ziggreen.png' alt='section21'/>
                         </div> */}

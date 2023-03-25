@@ -4,7 +4,7 @@ export default function Accordion({question,answer,id,toggle,setToggle}){
 
     return(
         <>
-            <div className="mx-44 py-5 border-b border-b-[#EAEAEA]">
+            <div className="py-5 border-b border-b-[#EAEAEA]">
 
                 <div className="flex justify-between items-center ">
                     <div className=""><p className={`text-${toggle===id ? 'bgPrimary' : 'bgSecondary'} text-lg font-[SatoshiBlack]`}>{question}</p></div>

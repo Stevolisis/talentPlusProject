@@ -5,8 +5,8 @@ export default function Footer(){
 
     return( 
     <>
-        <footer className="bg-bgSecondary text-neutral px-24 pt-28 pb-24 flex justify-between">
-            <div> 
+        <footer className="bg-bgSecondary text-neutral px-24 pt-28 pb-24 flex flex-wrap lg:flex-row justify-between">
+            <div className="mx-3"> 
                 <div>
                     <h2 className="py-2 font-[AmazingKids] text-4xl text-neutral">Tech Time</h2>
                     <p className="w-48 leading-6 text-[13px] font-[SatoshiLight]">Reach out to any one of our social media neworks</p>
@@ -20,7 +20,7 @@ export default function Footer(){
                 </div>
             </div>
 
-            <div>
+            <div className="mx-3">
                 <div>
                     <h2 className="font-[ClashDisplaySemiBold] text-2xl">Useful Links</h2>
                 </div>
@@ -33,7 +33,7 @@ export default function Footer(){
                 </div>
             </div>
 
-            <div>
+            <div className="mx-3">
                 <div>
                     <h2 className="font-[ClashDisplaySemiBold] text-2xl">Community</h2>
                 </div>
@@ -46,7 +46,7 @@ export default function Footer(){
                 </div>
             </div>
 
-            <div>
+            <div className="mx-3">
                 <div>
                     <h2 className="font-[ClashDisplaySemiBold] text-2xl">Subscribe Us</h2>
                 </div>

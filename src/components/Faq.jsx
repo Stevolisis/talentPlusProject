@@ -33,7 +33,7 @@ export default function Faq(){
 
     return(
         <>
-            <div className="px-24 py-16 bg-bgWhole">
+            <div className="px-48 lg:px-72 py-16 bg-bgWhole">
                 <div className="px-24 flex justify-center items-center flex-col">
                     <h1 className="text-center font-[ClashDisplayBold] text-bgSecondary text-[2.7rem] leading-[55px]">Frequently Asked Questions</h1>                   
                     <p className="w-[550px] text-center leading-6 py-3 text-[13px] font-[SatoshiLight] text-txtLight">

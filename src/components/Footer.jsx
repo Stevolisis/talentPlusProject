@@ -6,17 +6,17 @@ export default function Footer(){
     return( 
     <>
         <footer className="bg-bgSecondary text-neutral px-24 pt-28 pb-24 flex justify-between">
-            <div>
+            <div> 
                 <div>
                     <h2 className="py-2 font-[AmazingKids] text-4xl text-neutral">Tech Time</h2>
-                    <p className="leading-6 text-[13px] font-[SatoshiLight]">Reach out to any one of our social media neworks</p>
+                    <p className="w-48 leading-6 text-[13px] font-[SatoshiLight]">Reach out to any one of our social media neworks</p>
                 </div>
                 <div className="py-4 flex justify-between text-emailInputGrayIcons">
-                    <FaFacebook size={23}/>
-                    <FaTwitter size={23}/>
-                    <FaYoutube size={23}/>
-                    <FaInstagram size={23}/>
-                    <FaDiscord size={23}/>
+                    <FaFacebook size={24}/>
+                    <FaTwitter size={24}/>
+                    <FaYoutube size={24}/>
+                    <FaInstagram size={24}/>
+                    <FaDiscord size={24}/>
                 </div>
             </div>
 
@@ -52,7 +52,7 @@ export default function Footer(){
                 </div>
                 <div className="py-5 font-[SatoshiLight]">
                     <input type='email' placeholder="Nft123@gmail.com" 
-                    className="border placeholder:[#424141] outline-none border-bgPrimary w-[213px] bg-emailInputGrayIcons 
+                    className="border placeholder-[#424141] outline-none border-bgPrimary w-[213px] bg-emailInputGrayIcons 
                     py-2 px-3 text-[11px]"/>
                     <button className=" bg-bgPrimary py-[9px] px-3 text-[11px] rounded-sm">Send Message</button>
                 </div>

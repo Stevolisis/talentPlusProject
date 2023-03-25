@@ -6,6 +6,7 @@ export default function Section3(){
     return(
         <>
             <section className="bg-bgWhole px-24 py-16 flex items-center">
+
                 <div className="flex-1">
                     <div>
                         <h1 className="font-[ClashDisplayBold] text-bgSecondary text-[2.7rem] leading-[55px]">This Is Why We Are Best From Others</h1>
@@ -16,6 +17,9 @@ export default function Section3(){
                     </div>
                     <div>
                         <img className="w-[552px] h-[354px]" src='/images/sec31.png' alt='Sec3'/>
+                    </div>
+                    <div className='absolute left-5 mt-[-300px]'>
+                        <img className='w-12 mt-44' src='/images/sec213ziggreen.png' alt='section21'/>
                     </div>
                 </div>
 
@@ -63,7 +67,12 @@ export default function Section3(){
                             </p>
                         </div>
                     </div>
+
+
                 </div>
+                <div className='absolute right-5 mb-[-410px]'>
+                        <img className='w-12 mt-44' src='/images/sec213ziggreen.png' alt='section21'/>
+                    </div>
             </section>
         </>
     )

@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function Section1(){
 console.log(window.innerWidth)
-const [menuStatus,setmenuStatus]=useState(false);
+const [menuStatus,setMenuStatus]=useState(false);
 
     return(
         <>
@@ -23,7 +23,7 @@ const [menuStatus,setmenuStatus]=useState(false);
                         <Link to='/' className="ml-3 py-[12px] px-[28px] bg-neutral text-bgPrimary rounded">Enroll Now</Link>
                     </div>
                     <div className="block sm:hidden">
-                        {menuStatus ? <IoMdClose size={22} onClick={()=>setmenuStatus(!menuStatus)}/> : <FiMenu size={22} onClick={()=>setmenuStatus(!menuStatus)}/>}
+                        {menuStatus ? <IoMdClose size={22} onClick={()=>setMenuStatus(!menuStatus)} className='cursor-pointer'/> : <FiMenu size={22} onClick={()=>setMenuStatus(!menuStatus)} className='cursor-pointer'/>}
                     </div>
                     {menuStatus&&
                     <div className="absolute right-2 top-24 bg-bgSecondary p-7 w-[170px] rounded-md font-[SatoshiLight] text-[15px]">
@@ -32,17 +32,17 @@ const [menuStatus,setmenuStatus]=useState(false);
                         <Link to='/' className="block my-3 ">Courses</Link>
                         <Link to='/' className="block my-3 ">Testimonial</Link>
                         <Link to='/' className="block my-3 ">Community</Link>
-                        <Link to='/' className="block mt-3 py-2 px-3 font-[SatoshiMedium] text-sm bg-neutral text-bgPrimary rounded">Enroll Now</Link>
+                        <Link to='/' className="block mt-3 py-2 px-3 font-[SatoshiMedium] text-center text-sm bg-neutral text-bgPrimary rounded">Enroll Now</Link>
 
                     </div>}
                 </div>
 
                 <div className="flex justify-evenly items-center flex-col lg:flex-row">
                     
-                    <div className="flex-1 py-16 lg:py-0 h-full flex flex-col justify-center items-center lg:items-start">
+                    <div className="flex-1 py-2 sm:py-16 lg:py-0 h-full flex flex-col justify-center items-center lg:items-start">
                         
-                        <div className="absolute top-[390px] left-12 ml-[-50px] block">
-                            <img  className="w-12 h-12 object-contain" src='/images/zigzagmain.png' alt="arrowmain"/>
+                        <div className="absolute top-[390px] left-10 sm:left-12 ml-[-50px] block">
+                            <img  className="w-7 h-7sm:w-[12px] sm:h-12 object-contain" src='/images/zigzagmain.png' alt="arrowmain"/>
                         </div>
                         <div className="absolute top-44 left-44 ml-[-50px] block">
                             <img  className="w-3 h-3 object-contain" src='/images/donutmain.png' alt="arrowmain"/>
@@ -51,24 +51,24 @@ const [menuStatus,setmenuStatus]=useState(false);
                             <img  className="w-2 h-2 object-contain" src='/images/circlemain.png' alt="arrowmain"/>
                         </div>
                         
-                        <div>
-                            <p className="text-center lg:text-left leading-[63px] font-[ClashDisplayBold] text-[3.05rem] text-neutral">Grow your skills to advance your career path</p>
+                        <div className="px-10 sm:px-0">
+                            <p className="text-center lg:text-left leading-[44px] sm:leading-[63px] font-[ClashDisplayBold] text-[32px] sm:text-[3.05rem] text-neutral">Grow your skills to advance your career path</p>
                         </div>
-                        <div className="py-3 w-[400px]">
-                            <p className="text-center lg:text-left text-[13px] font-[SatoshiLight] text-[#E7E7E7]">Build Your Future With Our Quality Education. The Best And Largest All-In-One Online Tutoring Platform In The World</p>
+                        <div className="py-3 w-[400px] px-14 sm:px-0">
+                            <p className="text-center lg:text-left text-[8px] sm:text-[13px] font-[SatoshiLight] text-[#E7E7E7]">Build Your Future With Our Quality Education. The Best And Largest All-In-One Online Tutoring Platform In The World</p>
                         </div>
-                        <div className="py-3 flex">
-                            <button className="flex items-center mr-5 font-[SatoshiMedium] text-[13px] py-[10px] px-[28px] text-neutral border-2 border-txtHeaderLight rounded">
+                        <div className="py-3 sm:py-3 flex">
+                            <button className="flex items-center mr-5 font-[SatoshiMedium] text-[8px] sm:text-[13px] py-[5px] px-[18px] sm:py-[10px] sm:px-[28px] text-neutral border-2 border-txtHeaderLight rounded">
                                 Get Started Now <FiArrowUpRight size={16} className='ml-2'/></button>
-                            <button className="font-[SatoshiMedium] text-[13px] py-[12px] px-[28px] bg-neutral text-bgPrimary rounded">Enroll Now</button>
+                            <button className="font-[SatoshiMedium] text-[8px] sm:text-[13px] py-[5px] px-[20px] sm:py-[12px] sm:px-[28px] bg-neutral text-bgPrimary rounded">Enroll Now</button>
                         </div>
                         <div className="flex items-center">
                             <div className="flex items-center">
-                                <img className="w-[45px] h-[45px]" src='/images/preview1.png' alt='preview'/>
-                                <img className="w-[45px] h-[45px] ml-[-15px]" src='/images/preview2.png' alt='preview'/>
-                                <img className="w-[45px] h-[45px] ml-[-15px]" src='/images/preview3.png' alt='preview'/>
-                                <img className="w-[45px] h-[45px] ml-[-15px]" src='/images/preview4.png' alt='preview'/>
-                                <img className="w-[45px] h-[45px] ml-[-15px]" src='/images/preview5.png' alt='preview'/>
+                                <img className="w-8 h-8 sm:w-[45px] sm:h-[45px]" src='/images/preview1.png' alt='preview'/>
+                                <img className="w-8 h-8 sm:w-[45px] sm:h-[45px] ml-[-15px]" src='/images/preview2.png' alt='preview'/>
+                                <img className="w-8 h-8 sm:w-[45px] sm:h-[45px] ml-[-15px]" src='/images/preview3.png' alt='preview'/>
+                                <img className="w-8 h-8 sm:w-[45px] sm:h-[45px] ml-[-15px]" src='/images/preview4.png' alt='preview'/>
+                                <img className="w-8 h-8 sm:w-[45px] sm:h-[45px] ml-[-15px]" src='/images/preview5.png' alt='preview'/>
                             </div>
                             <div className="ml-1 flex justify-center items-center flex-col">
                                 <p className="text-[19px] font-[ClashDisplaySemibold] leading-none">255K+</p>
@@ -77,10 +77,10 @@ const [menuStatus,setmenuStatus]=useState(false);
                         </div>
                     </div>
 
-                    <div className="flex-1 h-full">
+                    <div className="flex-1 h-full pt-14 sm:pt-0">
                         <img className="w-full h-full object-contain" src='/images/main2.png' alt="arrowmain"/>
-                        <div className="absolute top-[37vw] ml-0 lg:ml-[-100px] block">
-                            <img className="w-36 h-36 object-contain" src='/images/arrowmain.png' alt="arrowmain"/>
+                        <div className="absolute top-[75vw] sm:top-[37vw] ml-0 lg:ml-[-100px] block">
+                            <img className="w-28 h-28 sm:w-36 sm:h-36 object-contain" src='/images/arrowmain.png' alt="arrowmain"/>
                         </div>
                     </div>
                 </div>

@@ -4,17 +4,18 @@ export default function Section2(){
 
     return(
         <>
-            <section className="flex px-14 md:px-32 pb-10 bg-bgWhole items-center flex-col lg:flex-row">
+            <section className="flex px-7 sm:px-14 md:px-32 pb-10 bg-bgWhole items-center flex-col lg:flex-row">
                 
                 <div className='flex-1 flex flex-col justify-center items-center pb-7 lg:py-0'>
-                    <div className='pt-12 md:pt-20 lg:pt-32'>
+                    <div className='pt-5 sm:pt-12 md:pt-20 lg:pt-32'>
                         {/* <div className='absolute'>
-                            <img className='w-12 mt-44' src='/images/sec213ziggreen.png' alt='section21'/>
+                            
                         </div> */}
-                        <h1 className='text-center lg:text-left lg:pr-12 font-[ClashDisplayBold] text-bgSecondary text-[2.7rem] leading-[55px]'>High quality video, audio & live classes</h1>
+                        <img className='w-8 sm:w-12 ml-[-20px] sm:ml-[-30px] mb-[-16px] sm:mb-[-19px]' src='/images/textcrown.png' alt='section21'/>
+                        <h1 className='text-center lg:text-left lg:pr-12 font-[ClashDisplayBold] text-bgSecondary text-2xl sm:text-[2.7rem] leading-[35px] sm:leading-[55px]'>High quality video, audio & live classes</h1>
                     </div>
                     <div>
-                        <p className='text-center lg:text-left lg:pr-32 leading-6 py-3 text-[13px] font-[SatoshiLight] text-txtLight'>High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No Standard Meaning For High Definition, Generally Any Standard Video Image</p>
+                        <p className='text-center lg:text-left lg:pr-32 leading-4 sm:leading-6 py-3 text-[8px] sm:text-[13px] font-[SatoshiLight] text-txtLight'>High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No Standard Meaning For High Definition, Generally Any Standard Video Image</p>
                     </div>
                     <div className='py-5 lg:py-3'>
                         <button className='rounded bg-bgPrimary font-[SatoshiBold] py-[12px] px-[28px] text-[12px] text-neutral'>View Courses</button>
@@ -25,25 +26,25 @@ export default function Section2(){
                             <p className='p-[6px] bg-bgCourseGreen rounded-sm mx-3'>
                                 <MdVolumeUp className='text-[12px] text-iconCourseGreen'/>
                             </p>
-                            <p className='font-[SatoshiBold] text-bgSecondary text-[13px]'>Audio Classes</p>
+                            <p className='font-[SatoshiBold] text-bgSecondary text-[8px] sm:text-[13px]'>Audio Classes</p>
                         </div>
                         <div className='mr-4 mb-4 rounded-[5px] flex items-center bg-neutral py-4 pl-2 pr-10 w-auto'>
                             <p className='p-[6px] bg-bgCourseOrange rounded-sm mx-3'>
                                 <MdSettingsInputAntenna className='text-[12px] text-iconCourseOrange'/>
                             </p>
-                            <p className='font-[SatoshiBold] text-bgSecondary text-[13px]'>Live Classes</p>
+                            <p className='font-[SatoshiBold] text-bgSecondary text-[8px] sm:text-[13px]'>Live Classes</p>
                         </div>
                         <div className='mr-4 mb-4 rounded-[5px] flex items-center bg-neutral py-4 pl-2 pr-10 w-auto'>
                             <p className='p-[6px] bg-bgCoursePurple rounded-sm mx-3'>
                                 <MdSettingsInputAntenna className='text-[12px] text-iconCoursePurple'/>
                             </p>
-                            <p className='font-[SatoshiBold] text-bgSecondary text-[13px]'>Recorded Classes</p>
+                            <p className='font-[SatoshiBold] text-bgSecondary text-[8px] sm:text-[13px]'>Recorded Classes</p>
                         </div>
                         <div className='mr-4 mb-4 rounded-[5px] flex items-center bg-neutral py-4 pl-2 pr-10 w-auto'>
                             <p className='p-[6px] bg-bgCourseBlue rounded-sm mx-3'>
                                 <MdOutlineDescription className='text-[12px] text-iconCourseBlue'/>
                             </p>
-                            <p className='font-[SatoshiBold] text-bgSecondary text-[13px]'>50+ Notes</p>
+                            <p className='font-[SatoshiBold] text-bgSecondary text-[8px] sm:text-[13px]'>50+ Notes</p>
                         </div>
                     </div>
                 </div>

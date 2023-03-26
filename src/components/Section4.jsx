@@ -3,7 +3,7 @@ export default function Section4(){
 
     return(
         <>
-            <div className="flex flex-col justify-center items-center p-16 bg-[url('/images/communitywave.png')] bg-cover bg-bgPrimary text-neutral">
+            <div className="flex flex-col justify-center items-center py-16 px-12 md:px-16 bg-[url('/images/communitywave.png')] bg-cover bg-bgPrimary text-neutral">
                 <div className="text-neutral flex flex-col justify-center items-center">
                     <p className="text-sm font-[SatoshiMedium]">JOIN OUR COMMUNITY</p>
                     <p className="py-3  px-12 md:px-40 text-[43px] leading-[50px] font-[ClashDisplayBold] text-center">Are you ready to connect with the future talent of the tech world</p>

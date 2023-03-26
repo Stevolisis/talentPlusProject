@@ -1,16 +1,20 @@
 import { Link } from "react-router-dom";
-import { FiArrowUpRight } from 'react-icons/fi';
+import { FiArrowUpRight, FiMenu } from 'react-icons/fi';
+import { IoMdClose } from 'react-icons/io'
+import { useState } from "react";
 
 export default function Section1(){
 console.log(window.innerWidth)
+const [menuStatus,setmenuStatus]=useState(false);
+
     return(
         <>
-            <section className="bg-bgPrimary text-neutral px-12 md:px-24 bg-[url('/images/mainwave.png')] bg-cover">
+            <section className="bg-bgPrimary text-neutral px-4 sm:px-12 md:px-24 bg-[url('/images/mainwave.png')] bg-cover">
                 <div className="py-10 flex justify-between items-center">
                     <div>
-                        <h1 className="font-[AmazingKids] text-4xl text-neutral">Tech Time</h1>
+                        <h1 className="font-[AmazingKids] text-[19px] sm:text-4xl text-neutral">Tech Time</h1>
                     </div>
-                    <div className="flex items-center font-[SatoshiMedium] text-[13px]">
+                    <div className="hidden sm:flex items-center font-[SatoshiMedium] text-[13px]">
                         <Link to='/' className="mx-3">Home</Link>
                         <Link to='/' className="mx-3 text-txtHeaderLight">About Us</Link>
                         <Link to='/' className="mx-3 text-txtHeaderLight">Courses</Link>
@@ -18,6 +22,19 @@ console.log(window.innerWidth)
                         <Link to='/' className="mx-3 text-txtHeaderLight">Community</Link>
                         <Link to='/' className="ml-3 py-[12px] px-[28px] bg-neutral text-bgPrimary rounded">Enroll Now</Link>
                     </div>
+                    <div className="block sm:hidden">
+                        {menuStatus ? <IoMdClose size={22} onClick={()=>setmenuStatus(!menuStatus)}/> : <FiMenu size={22} onClick={()=>setmenuStatus(!menuStatus)}/>}
+                    </div>
+                    {menuStatus&&
+                    <div className="absolute right-2 top-24 bg-bgSecondary p-7 w-[170px] rounded-md font-[SatoshiLight] text-[15px]">
+                    <Link to='/' className="block">Home</Link>
+                        <Link to='/' className="block my-3 ">About Us</Link>
+                        <Link to='/' className="block my-3 ">Courses</Link>
+                        <Link to='/' className="block my-3 ">Testimonial</Link>
+                        <Link to='/' className="block my-3 ">Community</Link>
+                        <Link to='/' className="block mt-3 py-2 px-3 font-[SatoshiMedium] text-sm bg-neutral text-bgPrimary rounded">Enroll Now</Link>
+
+                    </div>}
                 </div>
 
                 <div className="flex justify-evenly items-center flex-col lg:flex-row">

@@ -37,17 +37,17 @@ export default function Course({filter}){
                 }else return list.category===filter
             })
             .map((list,i)=>{
-                return  <div key={i} className="p-4 mb-3 mx-[11px] rounded-2xl bg-neutral">
+                return  <div key={i} className="px-2 py-4 sm:px-4 mb-2 sm:mb-3 mx-1 sm:mx-[11px] rounded sm:rounded-2xl bg-neutral">
                             <div>
                                 <img src={list.image} alt='courses'/>
                             </div>
 
                             <div className="flex items-center justify-between">
                                 <div className="py-3">
-                                    <p className="font-[SatoshiMedium] text-[10px] px-6 py-1 rounded-full bg-bgCourseBlue text-bgPrimary">{list.category}</p>
+                                    <p className="font-[SatoshiMedium] text-[4px] sm:text-[10px] px-6 py-1 rounded-full bg-bgCourseBlue text-bgPrimary">{list.category}</p>
                                 </div>
 
-                                <div className="flex items-center text-[10px] font-[SatoshiMedium] text-txtLight">
+                                <div className="flex items-center text-[4px] sm:text-[10px] font-[SatoshiMedium] text-txtLight">
                                     <p className="mr-2 flex items-center justify-center">
                                         {list.rating.rate} <MdStar className="text-yellow-400 text-[12px]"/>
                                     </p>
@@ -56,29 +56,29 @@ export default function Course({filter}){
                             </div>
 
                             <div className="py-2">
-                                <p className="text-lg leading-5 font-[ClashDisplaySemiBold] text-bgSecondary">{list.title}</p>
+                                <p className="text-[8px] sm:text-lg leading-5 font-[ClashDisplaySemiBold] text-bgSecondary">{list.title}</p>
                             </div>
 
                             <div className="flex items-center font-[SatoshiMedium] text-[13px] justify-between text-txtLight">
                                 <div className="flex items-center">
-                                    <MdOutlineSchedule className="text-[17px] mr-2"/>
-                                    <p>{list.duration}</p>
+                                    <MdOutlineSchedule className="text-[4px] sm:text-[17px] mr-2"/>
+                                    <p className="text-[4px] sm:text-base">{list.duration}</p>
                                 </div>
 
                                 <div className="flex items-center">
-                                    <MdOutlineMenuBook className="text-[17px] mr-2"/>
-                                    <p>{list.lessons} Lessons</p>
+                                    <MdOutlineMenuBook className="text-[4px] sm:text-[17px] mr-2"/>
+                                    <p className="text-[4px] sm:text-base">{list.lessons} Lessons</p>
                                 </div>
                             </div>
 
                             <div className="flex justify-between items-center pt-7 pb-2">
                                 <div className="flex items-center">
-                                    <img className="w-8 h-8 rounded-full" src={list.author.profile_img} alt="victor"/>
-                                    <p className="ml-2 text-xs font-[SatoshiBold] text-black">{list.author.name}</p>
+                                    <img className="w-3 h-3 sm:w-8 sm:h-8 rounded-full" src={list.author.profile_img} alt="victor"/>
+                                    <p className="ml-2 text-[6px] sm:text-xs font-[SatoshiBold] text-black">{list.author.name}</p>
                                 </div>
                                 <div className="flex items-center font-[ClashDisplaySemiBold] text-bgPrimary">
                                     <FaDollarSign className=" font-bold"/>
-                                    <p className="ml-[-4px]">{list.price}.00</p>
+                                    <p className="ml-[-4px] text-[6px] sm:text-base">{list.price}.00</p>
                                 </div>
                             </div>
                         </div>

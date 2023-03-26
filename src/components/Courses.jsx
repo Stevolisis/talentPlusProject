@@ -7,7 +7,7 @@ export default function Courses(){
 
     return(
         <>
-            <section className="px-4 sm:px-12 md:px-24 py-12 md:py-16 bg-bgWhole">
+            <section className="px-4 sm:px-12 md:px-24 pt-12 pb-7 md:pt-16 md:pb-16 bg-bgWhole">
                 <div className="flex justify-center items-center flex-col">
                     <h1 className="text-center font-[ClashDisplayBold] text-bgSecondary text-2xl sm:text-[2.7rem] leading-[35px] sm:leading-[55px]">Browse Our Popular Courses</h1>                   
                     <p className="sm:w-[550px] text-center leading-4 sm:leading-6 py-3 text-[8px] sm:text-[13px] font-[SatoshiLight] text-txtLight">

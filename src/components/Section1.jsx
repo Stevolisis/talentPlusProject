@@ -26,13 +26,13 @@ const [menuStatus,setMenuStatus]=useState(false);
                         {menuStatus ? <IoMdClose size={22} onClick={()=>setMenuStatus(!menuStatus)} className='cursor-pointer'/> : <FiMenu size={22} onClick={()=>setMenuStatus(!menuStatus)} className='cursor-pointer'/>}
                     </div>
                     {menuStatus&&
-                    <div className="absolute right-2 top-24 bg-bgSecondary p-7 w-[170px] rounded-md font-[SatoshiLight] text-[15px]">
-                    <Link to='/' className="block">Home</Link>
+                    <div className="absolute right-2 top-24 bg-bgSecondary p-7 pt-10 w-[170px] rounded-md font-[SatoshiLight] text-[13px]">
+                        <Link to='/' className="block">Home</Link>
                         <Link to='/' className="block my-3 ">About Us</Link>
                         <Link to='/' className="block my-3 ">Courses</Link>
                         <Link to='/' className="block my-3 ">Testimonial</Link>
                         <Link to='/' className="block my-3 ">Community</Link>
-                        <Link to='/' className="block mt-3 py-2 px-3 font-[SatoshiMedium] text-center text-sm bg-neutral text-bgPrimary rounded">Enroll Now</Link>
+                        <Link to='/' className="block mt-3 py-2 px-3 font-[SatoshiMedium] text-center bg-neutral text-bgPrimary rounded">Enroll Now</Link>
 
                     </div>}
                 </div>
@@ -44,10 +44,10 @@ const [menuStatus,setMenuStatus]=useState(false);
                         <div className="absolute top-[390px] left-10 sm:left-12 ml-[-50px] block">
                             <img  className="w-7 h-7sm:w-[12px] sm:h-12 object-contain" src='/images/zigzagmain.png' alt="arrowmain"/>
                         </div>
-                        <div className="absolute top-44 left-44 ml-[-50px] block">
+                        <div className="hidden sm:block absolute top-44 left-44 ml-[-50px]">
                             <img  className="w-3 h-3 object-contain" src='/images/donutmain.png' alt="arrowmain"/>
                         </div>
-                        <div className="absolute top-48 left-[40vw] ml-[-50px] block">
+                        <div className="hidden sm:block absolute top-48 left-[40vw] ml-[-50px]">
                             <img  className="w-2 h-2 object-contain" src='/images/circlemain.png' alt="arrowmain"/>
                         </div>
                         
@@ -77,10 +77,10 @@ const [menuStatus,setMenuStatus]=useState(false);
                         </div>
                     </div>
 
-                    <div className="flex-1 h-full pt-14 sm:pt-0">
+                    <div className="flex-1 h-full pt-10 sm:pt-0">
                         <img className="w-full h-full object-contain" src='/images/main2.png' alt="arrowmain"/>
-                        <div className="absolute top-[75vw] sm:top-[37vw] ml-0 lg:ml-[-100px] block">
-                            <img className="w-28 h-28 sm:w-36 sm:h-36 object-contain" src='/images/arrowmain.png' alt="arrowmain"/>
+                        <div className="absolute top-[78vw] sm:top-[37vw] ml-0 lg:ml-[-100px] block">
+                            <img className="w-24 h-24 sm:w-36 sm:h-36 object-contain" src='/images/arrowmain.png' alt="arrowmain"/>
                         </div>
                     </div>
                 </div>

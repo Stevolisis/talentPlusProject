@@ -58,9 +58,9 @@ const [menuStatus,setMenuStatus]=useState(false);
                             <p className="text-center lg:text-left text-[8px] sm:text-[13px] font-[SatoshiLight] text-[#E7E7E7]">Build Your Future With Our Quality Education. The Best And Largest All-In-One Online Tutoring Platform In The World</p>
                         </div>
                         <div className="py-3 sm:py-3 flex">
-                            <button className="flex items-center mr-5 font-[SatoshiMedium] text-[8px] sm:text-[13px] py-[5px] px-[18px] sm:py-[10px] sm:px-[28px] text-neutral border-2 border-txtHeaderLight rounded">
-                                Get Started Now <FiArrowUpRight size={16} className='ml-2'/></button>
-                            <button className="font-[SatoshiMedium] text-[8px] sm:text-[13px] py-[5px] px-[20px] sm:py-[12px] sm:px-[28px] bg-neutral text-bgPrimary rounded">Enroll Now</button>
+                            <button className="flex items-center mr-5 font-[SatoshiMedium] text-[8px] sm:text-[13px] py-[6px] px-[18px] sm:py-[10px] sm:px-[28px] text-neutral border-2 border-txtHeaderLight rounded">
+                                Get Started Now <FiArrowUpRight className='ml-2 text-[13px] sm:text-[16px]'/></button>
+                            <button className="font-[SatoshiMedium] text-[8px] sm:text-[13px] py-[6px] px-[20px] sm:py-[12px] sm:px-[28px] bg-neutral text-bgPrimary rounded">Enroll Now</button>
                         </div>
                         <div className="flex items-center">
                             <div className="flex items-center">

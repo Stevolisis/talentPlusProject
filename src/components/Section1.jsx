@@ -26,7 +26,7 @@ const [menuStatus,setMenuStatus]=useState(false);
                         {menuStatus ? <IoMdClose size={22} onClick={()=>setMenuStatus(!menuStatus)} className='cursor-pointer'/> : <FiMenu size={22} onClick={()=>setMenuStatus(!menuStatus)} className='cursor-pointer'/>}
                     </div>
                     {menuStatus&&
-                    <div className="absolute right-2 top-24 bg-bgSecondary p-7 pt-10 w-[170px] rounded-md font-[SatoshiLight] text-[13px]">
+                    <div className="z-20 absolute right-2 top-24 bg-bgSecondary p-7 pt-10 w-[170px] rounded-md font-[SatoshiLight] text-[13px]">
                         <Link to='/' className="block">Home</Link>
                         <Link to='/' className="block my-3 ">About Us</Link>
                         <Link to='/' className="block my-3 ">Courses</Link>

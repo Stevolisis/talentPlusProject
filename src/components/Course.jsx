@@ -1,32 +1,8 @@
 import { FaDollarSign } from "react-icons/fa";
 import { MdStar, MdOutlineSchedule, MdOutlineMenuBook } from "react-icons/md";
+import { Link } from "react-router-dom";
 
-export default function Course({filter}){
-    const courseLists=[
-        {image:'/images/courses1.png',title:'Introduction to user research in UX Design',category:'Design',
-        author:{name:'Leonard Victor', profile_img:'/images/cs1.png'},lessons:15,
-        duration:'23hrs 50mins',rating:{rate:'4.7k',population:'32.7k+'},price:15.00},
-
-        {image:'/images/courses2.png',title:'Introduction to new marketing audience',category:'Marketing',
-        author:{name:'Jeffrey Williams', profile_img:'/images/cs2.png'},lessons:22,
-        duration:'23hrs 50mins',rating:{rate:'4.7k',population:'8.7k+'},price:32.00},
-
-        {image:'/images/courses3.png',title:'Introduction to Html, CSS & Bootstrap',category:'Development',
-        author:{name:'Claretta Mason', profile_img:'/images/cs3.png'},lessons:55,
-        duration:'45hrs 50mins',rating:{rate:'4.7k',population:'12.7k+'},price:55.00},
-
-        {image:'/images/courses4.png',title:'Introduction to javascript, Git & Github',category:'Development',
-        author:{name:'Jessica Duke', profile_img:'/images/cs4.png'},lessons:15,
-        duration:'30hrs 50mins',rating:{rate:'4.7k',population:'32.7k+'},price:45.00},
-
-        {image:'/images/courses5.png',title:'Introduction to outroom marketing analysis',category:'Marketing',
-        author:{name:'Samuel Jacobs', profile_img:'/images/cs5.png'},lessons:26,
-        duration:'33hrs 50mins',rating:{rate:'4.7k',population:'4.7k+'},price:25.00},
-
-        {image:'/images/courses6.png',title:'Introduction to live marketing analysis',category:'Marketing',
-        author:{name:'Adam Smith', profile_img:'/images/cs6.png'},lessons:32,
-        duration:'10hrs 50mins',rating:{rate:'4.7k',population:'15.7k+'},price:25.00},
-    ]
+export default function Course({filter,courseLists}){
 
     return(
         <>
@@ -37,51 +13,53 @@ export default function Course({filter}){
                 }else return list.category===filter
             })
             .map((list,i)=>{
-                return  <div key={i} className="px-2 py-4 sm:px-4 mb-2 sm:mb-3 mx-1 sm:mx-[11px] rounded sm:rounded-2xl bg-neutral">
+                return  <Link to='/' key={i} className="px-2 py-4 sm:px-4 mb-2 sm:mb-3 mx-1 sm:mx-[11px] rounded sm:rounded-2xl bg-neutral">
                             <div>
                                 <img src={list.image} alt='courses'/>
                             </div>
 
                             <div className="flex items-center justify-between">
-                                <div className="py-3">
-                                    <p className="font-[SatoshiMedium] text-[4px] sm:text-[10px] px-6 py-1 rounded-full bg-bgCourseBlue text-bgPrimary">{list.category}</p>
+                                <div className="py-1 sm:py-3">
+                                    <p className="font-[SatoshiMedium] text-[6px] sm:text-[10px] px-3 sm:px-6 py-0.5 sm:py-1 rounded-full bg-bgCourseBlue text-bgPrimary">{list.category}</p>
                                 </div>
 
-                                <div className="flex items-center text-[4px] sm:text-[10px] font-[SatoshiMedium] text-txtLight">
-                                    <p className="mr-2 flex items-center justify-center">
-                                        {list.rating.rate} <MdStar className="text-yellow-400 text-[12px]"/>
+                                <div className="flex items-center text-[6px] sm:text-[10px] font-[SatoshiMedium] text-txtLight">
+                                    <p className="mr-1 sm:mr-2 flex items-center justify-center">
+                                        {list.rating.rate} <MdStar className="text-yellow-400 text-[8px] sm:text-[12px]"/>
                                     </p>
                                     <p>({list.rating.population})</p>
                                 </div>
                             </div>
 
-                            <div className="py-2">
-                                <p className="text-[8px] sm:text-lg leading-5 font-[ClashDisplaySemiBold] text-bgSecondary">{list.title}</p>
+                            <div className="py-1 sm:py-2">
+                                <p className="line-clamp-2 text-[12px] sm:text-lg leading-4 sm:leading-5 font-[ClashDisplaySemiBold] text-bgSecondary">
+                                    {list.title}
+                                </p>
                             </div>
 
-                            <div className="flex items-center font-[SatoshiMedium] text-[13px] justify-between text-txtLight">
+                            <div className="flex items-center font-[SatoshiMedium] text-[6px] sm:text-[13px] justify-between text-txtLight">
                                 <div className="flex items-center">
-                                    <MdOutlineSchedule className="text-[4px] sm:text-[17px] mr-2"/>
-                                    <p className="text-[4px] sm:text-base">{list.duration}</p>
+                                    <MdOutlineSchedule className="text-[6px] sm:text-[17px] mr-2"/>
+                                    <p>{list.duration}</p>
                                 </div>
 
                                 <div className="flex items-center">
-                                    <MdOutlineMenuBook className="text-[4px] sm:text-[17px] mr-2"/>
-                                    <p className="text-[4px] sm:text-base">{list.lessons} Lessons</p>
+                                    <MdOutlineMenuBook className="text-[6px] sm:text-[17px] mr-2"/>
+                                    <p>{list.lessons} Lessons</p>
                                 </div>
                             </div>
 
-                            <div className="flex justify-between items-center pt-7 pb-2">
+                            <div className="flex justify-between items-center pt-4 sm:pt-7 pb-1 sm:pb-2">
                                 <div className="flex items-center">
-                                    <img className="w-3 h-3 sm:w-8 sm:h-8 rounded-full" src={list.author.profile_img} alt="victor"/>
-                                    <p className="ml-2 text-[6px] sm:text-xs font-[SatoshiBold] text-black">{list.author.name}</p>
+                                    <img className="w-5 h-5 sm:w-8 sm:h-8 rounded-full" src={list.author.profile_img} alt="victor"/>
+                                    <p className="ml-1 sm:ml-2 text-[6px] sm:text-xs font-[SatoshiBold] text-black">{list.author.name}</p>
                                 </div>
                                 <div className="flex items-center font-[ClashDisplaySemiBold] text-bgPrimary">
-                                    <FaDollarSign className=" font-bold"/>
-                                    <p className="ml-[-4px] text-[6px] sm:text-base">{list.price}.00</p>
+                                    <FaDollarSign className="text-[8px] sm:text-[16px] font-bold"/>
+                                    <p className="ml-[-2px] sm:ml-[-4px] text-[10px] sm:text-base">{list.price}.00</p>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
             })
         }
         </>

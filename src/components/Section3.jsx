@@ -10,7 +10,7 @@ export default function Section3(){
                 <div className="flex-1">
                     <div>
                         <h1 className="text-center lg:text-left font-[ClashDisplayBold] text-bgSecondary text-2xl sm:text-[2.7rem] leading-[35px] sm:leading-[55px]">This Is Why We Are Best From Others</h1>
-                        <p className="text-center lg:text-left lg:pr-20 leading-4 sm:leading-6 lg:pb-7 text-[8px] sm:text-[13px] font-[SatoshiLight] text-txtLight">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard
+                        <p className="px-7 sm:px-0 text-center lg:text-left lg:pr-20 leading-4 sm:leading-6 lg:pb-7 text-[8px] sm:text-[13px] font-[SatoshiLight] text-txtLight">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard
                             Definition. While There's No Standard Meaning For High Definition, Generally
                             Any Standard Video Image
                         </p>

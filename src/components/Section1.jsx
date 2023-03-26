@@ -57,7 +57,7 @@ const [menuStatus,setMenuStatus]=useState(false);
                         <div className="py-3 w-[400px] px-14 sm:px-0">
                             <p className="text-center lg:text-left text-[8px] sm:text-[13px] font-[SatoshiLight] text-[#E7E7E7]">Build Your Future With Our Quality Education. The Best And Largest All-In-One Online Tutoring Platform In The World</p>
                         </div>
-                        <div className="py-3 sm:py-3 flex">
+                        <div className="py-3 sm:py-3 flex z-10">
                             <button className="flex items-center mr-5 font-[SatoshiMedium] text-[8px] sm:text-[13px] py-[6px] px-[18px] sm:py-[10px] sm:px-[28px] text-neutral border-2 border-txtHeaderLight rounded">
                                 Get Started Now <FiArrowUpRight className='ml-2 text-[13px] sm:text-[16px]'/></button>
                             <button className="font-[SatoshiMedium] text-[8px] sm:text-[13px] py-[6px] px-[20px] sm:py-[12px] sm:px-[28px] bg-neutral text-bgPrimary rounded">Enroll Now</button>
@@ -77,10 +77,10 @@ const [menuStatus,setMenuStatus]=useState(false);
                         </div>
                     </div>
 
-                    <div className="flex-1 h-full pt-10 sm:pt-0">
+                    <div className="flex-1 h-full pt-7 sm:pt-0">
                         <img className="w-full h-full object-contain" src='/images/main2.png' alt="arrowmain"/>
-                        <div className="absolute top-[78vw] sm:top-[37vw] ml-0 lg:ml-[-100px] block">
-                            <img className="w-24 h-24 sm:w-36 sm:h-36 object-contain" src='/images/arrowmain.png' alt="arrowmain"/>
+                        <div className="absolute top-[80vw] sm:top-[37vw] ml-0 lg:ml-[-100px] block">
+                            <img className="w-20 h-20 sm:w-36 sm:h-36 object-contain" src='/images/arrowmain.png' alt="arrowmain"/>
                         </div>
                     </div>
                 </div>

@@ -4,14 +4,11 @@ export default function Section2(){
 
     return(
         <>
-            <section className="flex px-7 sm:px-14 md:px-32 pb-10 bg-bgWhole items-center flex-col lg:flex-row">
+            <section className="flex px-5 sm:px-14 md:px-32 pb-7 sm:pb-10 bg-bgWhole items-center flex-col lg:flex-row">
                 
                 <div className='flex-1 flex flex-col justify-center items-center pb-7 lg:py-0'>
                     <div className='pt-10 sm:pt-12 md:pt-20 lg:pt-32 flex'>
-                        {/* <div className='absolute'>
-                            
-                        </div> */}
-                        <img className='absolute w-7 h-7 sm:w-12 sm:h-12 mt-[-16px] sm:mt-[-28px] ml-[-18px] sm:ml-[-32px]' src='/images/textcrown.png' alt='section21'/>
+                        <img className='absolute w-7 h-7 sm:w-12 sm:h-12 mt-[-16px] sm:mt-[-28px] ml-[-8px] sm:ml-[-32px]' src='/images/textcrown.png' alt='section21'/>
                         <h1 className='text-center lg:text-left lg:pr-12 font-[ClashDisplayBold] text-bgSecondary text-2xl sm:text-[2.7rem] leading-[35px] sm:leading-[55px]'>High quality video, audio & live classes</h1>
                     </div>
                     <div>
@@ -50,19 +47,9 @@ export default function Section2(){
                 </div>
 
 
-                <div className='flex-2 flex lg:items-end pl-1'>
-                    <div>
-                    <img className='' src='/images/sec21.png' alt='section21'/>
-                    </div>
-                    {/* <div className='absolute right-0'>
-                        <img className='w-12 h-12 mt-44' src='/images/sec213ziggreen.png' alt='section21'/>
-                    </div>
-                    <div className='absolute right-0'>
-                        <img className='w-20 h-20 mt-44' src='/images/sec213donut.png' alt='section21'/>
-                    </div> */}
-                    <div className='absolute'>
-                        <img className='w-[220px] h-[62px] ml-[-70px]' src='/images/sec22.png' alt='section22'/>
-                        <img className='mt-[100px] ml-[-150px] mb-[-80px] w-[310px] min-w-[310px]  h-[200px]' src='/images/sec23.png' alt='section23'/>
+                <div className='flex-1 flex lg:items-end lg:pt-32'>
+                    <div className='lg:ml-[-80px]'>
+                        <img className='' src='/images/Section2main.png' alt='Section2main'/>
                     </div>
                     
                 </div>

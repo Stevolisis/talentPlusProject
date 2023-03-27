@@ -55,7 +55,8 @@ export default function Reviews(){
 
     return(
         <>
-            <div className="sm:py-10 sm:px-12 pt-12 sm:pt-16 pb-7 sm:pb-10 bg-bgWhole">
+            <div className="sm:py-10 sm:px-12 pt-12 sm:pt-16 pb-7 sm:pb-10 bg-bgWhole"> 
+
                 <div className="px-4 sm:px-12 md:px-24 flex justify-center items-center flex-col">
                     <h1 className="text-center font-[ClashDisplayBold] text-bgSecondary text-2xl sm:text-[2.7rem] leading-[35px] sm:leading-[55px]">What Our Clients Are Saying</h1>                   
                     <p className="px-7 sm:px-0 sm:w-[550px] text-center leading-4 sm:leading-6 py-3 text-[8px] sm:text-[13px] font-[SatoshiLight] text-txtLight">
@@ -66,7 +67,8 @@ export default function Reviews(){
 
                 <div className="py-5 sm:py-7 overflow-x-auto flex scroll-smooth scrollbar-hide">
                     <Review reviewList={reviewList}/>
-                </div>                
+                </div>   
+           
             </div>
 
         </>

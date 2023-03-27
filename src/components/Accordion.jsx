@@ -17,7 +17,7 @@ export default function Accordion({question,answer,id,toggle,setToggle}){
 
                 <div className={`${toggle==id ? '' : 'hidden'}`}>
                     <p className="leading-5 py-1 sm:py-3 text-[9px] 
-                    sm:text-[13px] font-[SatoshiLight] text-txtLight">{answer}</p>
+                    sm:text-[13px] font-[SatoshiMedium] text-txtLight">{answer}</p>
                 </div>
 
             </div>

@@ -10,7 +10,7 @@ export default function Section3(){
                 <div className="flex-1">
                     <div>
                         <h1 className="text-center lg:text-left font-[ClashDisplayBold] text-bgSecondary text-2xl sm:text-[2.7rem] leading-[35px] sm:leading-[55px]">This Is Why We Are Best From Others</h1>
-                        <p className="px-7 sm:px-0 text-center lg:text-left lg:pr-20 leading-4 sm:leading-6 lg:pb-7 text-[8px] sm:text-[13px] font-[SatoshiLight] text-txtLight">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard
+                        <p className="px-7 sm:px-0 text-center lg:text-left lg:pr-20 leading-4 sm:leading-6 lg:pb-7 text-[8px] sm:text-[13px] font-[SatoshiMedium] text-txtLight">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard
                             Definition. While There's No Standard Meaning For High Definition, Generally
                             Any Standard Video Image
                         </p>
@@ -28,7 +28,7 @@ export default function Section3(){
                         <div className="p-2 bg-subBlue rounded mb-2 mt-5 sm:mt-6 sm:mb-6 w-[31px] sm:w-9"><MdOutlineCastForEducation className="text-neutral text-[14px] sm:text-[18px]"/></div>
                         <div>
                             <p className="font-[SatoshiBold] py-1 text-bgSecondary text-[12px]">Experienced Mentors</p>
-                            <p className="font-[SatoshiLight] text-txtLight leading-4 sm:leading-6 text-[8px] sm:text-[10px]">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 
+                            <p className="font-[SatoshiMedium] text-txtLight leading-4 sm:leading-6 text-[8px] sm:text-[10px]">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 
                                 Definition. High-Defination Video Is Video Of Higher Resolution And Quality
                                 Than Standard Definition. 
                             </p>
@@ -39,7 +39,7 @@ export default function Section3(){
                         <div className="p-2 bg-subGreen rounded mb-2 mt-5 sm:mt-6 sm:mb-6 w-[31px] sm:w-9"><MdOutlineAccessTimeFilled className="text-neutral text-[14px] sm:text-[18px]"/></div>
                         <div>
                             <p className="font-[SatoshiBold] text-bgSecondary text-[12px]">One-On-One Meetings</p>
-                            <p className="font-[SatoshiLight] text-txtLight leading-4 sm:leading-6 text-[8px] sm:text-[10px]">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 
+                            <p className="font-[SatoshiMedium] text-txtLight leading-4 sm:leading-6 text-[8px] sm:text-[10px]">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 
                                 Definition. High-Defination Video Is Video Of Higher Resolution And Quality
                                 Than Standard Definition. 
                             </p>
@@ -50,7 +50,7 @@ export default function Section3(){
                         <div className="p-2 bg-subPink rounded mb-2 mt-5 sm:mt-6 sm:mb-6 w-[31px] sm:w-9"><MdGroups2 className="text-neutral text-[14px] sm:text-[18px]"/></div>
                         <div>
                             <p className="font-[SatoshiBold] text-bgSecondary text-[12px]">One-On-One Meetings</p>
-                            <p className="font-[SatoshiLight] text-txtLight leading-4 sm:leading-6 text-[8px] sm:text-[10px]">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 
+                            <p className="font-[SatoshiMedium] text-txtLight leading-4 sm:leading-6 text-[8px] sm:text-[10px]">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 
                                 Definition. High-Defination Video Is Video Of Higher Resolution And Quality
                                 Than Standard Definition. 
                             </p>
@@ -61,7 +61,7 @@ export default function Section3(){
                         <div className="p-2 bg-subOrange rounded mb-2 mt-5 sm:mt-6 sm:mb-6 w-[31px] sm:w-9"><MdOutlineLocalAtm className="text-neutral text-[14px] sm:text-[18px]"/></div>
                         <div>
                             <p className="font-[SatoshiBold] text-bgSecondary text-[12px]">Affordable Prices</p>
-                            <p className="font-[SatoshiLight] text-txtLight leading-4 sm:leading-6 text-[8px] sm:text-[10px]">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 
+                            <p className="font-[SatoshiMedium] text-txtLight leading-4 sm:leading-6 text-[8px] sm:text-[10px]">High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 
                                 Definition. High-Defination Video Is Video Of Higher Resolution And Quality
                                 Than Standard Definition. 
                             </p>

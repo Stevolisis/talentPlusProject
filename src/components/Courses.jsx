@@ -39,7 +39,7 @@ export default function Courses(){
                 <div className='absolute ml-[-90vw] sm:ml-[-70vw]'>
                     <img className='w-4 mt-[-40px] sm:mt-0 md:w-9' src='/images/bluestar.png'/>
                 </div>
-                    <p className="px-7 sm:px-0 sm:w-[550px] text-center leading-4 sm:leading-6 py-3 text-[8px] sm:text-[13px] font-[SatoshiLight] text-txtLight">
+                    <p className="px-7 sm:px-0 sm:w-[550px] text-center leading-4 sm:leading-6 py-3 text-[8px] sm:text-[13px] font-[SatoshiMedium] text-txtLight">
                     High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 
                     Definition. While There's No Standard Meaning For High Definition, Generally Any Standard Video Image.
                     </p>

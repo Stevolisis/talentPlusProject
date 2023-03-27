@@ -45,7 +45,7 @@ export default function Faq(){
                 </div> 
                 <div className="sm:px-22 flex justify-center items-center flex-col">
                     <h1 className="text-center font-[ClashDisplayBold] text-bgSecondary text-2xl sm:text-[2.7rem] leading-[35px] sm:leading-[55px]">Frequently Asked Questions</h1>                   
-                    <p className="px-7 sm:px-0 sm:w-[550px] text-center leading-4 sm:leading-6 py-3 text-[8px] sm:text-[13px] font-[SatoshiLight] text-txtLight">
+                    <p className="px-7 sm:px-0 sm:w-[550px] text-center leading-4 sm:leading-6 py-3 text-[8px] sm:text-[13px] font-[SatoshiMedium] text-txtLight">
                     High-Defination Video Is Video Of Higher Resolution And Quality Than Standard 
                     Definition. While There's No Standard Meaning For High Definition, Generally Any Standard Video Image.
                     </p>

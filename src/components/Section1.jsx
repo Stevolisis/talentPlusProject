@@ -26,7 +26,7 @@ const [menuStatus,setMenuStatus]=useState(false);
                         {menuStatus ? <IoMdClose size={22} onClick={()=>setMenuStatus(!menuStatus)} className='cursor-pointer'/> : <FiMenu size={22} onClick={()=>setMenuStatus(!menuStatus)} className='cursor-pointer'/>}
                     </div>
                     {menuStatus&&
-                    <div className="z-20 absolute right-2 top-24 bg-bgSecondary p-7 pt-10 w-[170px] rounded-md font-[SatoshiLight] text-[13px]">
+                    <div className="z-20 absolute right-2 top-24 bg-bgSecondary p-7 pt-10 w-[170px] rounded-md font-[SatoshiMedium] text-[13px]">
                         <Link to='/' className="block">Home</Link>
                         <Link to='/' className="block my-3 ">About Us</Link>
                         <Link to='/' className="block my-3 ">Courses</Link>
@@ -59,7 +59,7 @@ const [menuStatus,setMenuStatus]=useState(false);
                             <p className="text-center lg:text-left leading-[44px] sm:leading-[63px] font-[ClashDisplayBold] text-[32px] sm:text-[3.05rem] text-neutral">Grow your skills to advance your career path</p>
                         </div>
                         <div className="py-3 sm:w-[400px] px-14 sm:px-0">
-                            <p className="text-center lg:text-left text-[8px] sm:text-[13px] font-[SatoshiLight] text-[#E7E7E7]">Build Your Future With Our Quality Education. The Best And Largest All-In-One Online Tutoring Platform In The World</p>
+                            <p className="text-center lg:text-left text-[8px] sm:text-[13px] font-[SatoshiMedium] text-[#E7E7E7]">Build Your Future With Our Quality Education. The Best And Largest All-In-One Online Tutoring Platform In The World</p>
                         </div>
 
 
@@ -80,7 +80,7 @@ const [menuStatus,setMenuStatus]=useState(false);
                             </div>
                             <div className="ml-1 flex justify-center items-center flex-col">
                                 <p className="text-[19px] font-[ClashDisplaySemibold] leading-none">255K+</p>
-                                <p className="text-[13px] font-[SatoshiLight] leading-none"> Previews</p>
+                                <p className="text-[13px] font-[SatoshiMedium] leading-none"> Previews</p>
                             </div>
                         </div>
                     </div>

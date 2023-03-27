@@ -9,7 +9,7 @@ export default function Footer(){
             <div className="sm:mx-3 my-4 sm:my-0"> 
                 <div>
                     <h2 className="py-2 font-[AmazingKids] text-3xl sm:text-4xl text-neutral">Tech Time</h2>
-                    <p className="w-48 leading-6 text-[13px] font-[SatoshiLight]">Reach out to any one of our social media neworks</p>
+                    <p className="w-48 leading-6 text-[13px] font-[SatoshiMedium]">Reach out to any one of our social media neworks</p>
                 </div>
                 <div className="py-4 flex sm:justify-between text-emailInputGrayIcons">
                     <FaFacebook className="mr-4 sm:mr-0 text-[22px] sm:text-[24px]"/>
@@ -24,7 +24,7 @@ export default function Footer(){
                 <div>
                     <h2 className="font-[ClashDisplaySemiBold] text-xl sm:text-2xl">Useful Links</h2>
                 </div>
-                <div className="py-5 font-[SatoshiLight] text-[13px] sm:text-lg">
+                <div className="py-5 font-[SatoshiMedium] text-[13px] sm:text-lg">
                     <Link to='/' className="block my-2">Home</Link>
                     <Link to='/' className="block my-2">About Us</Link>
                     <Link to='/' className="block my-2">Our Courses</Link>
@@ -37,7 +37,7 @@ export default function Footer(){
                 <div>
                     <h2 className="font-[ClashDisplaySemiBold] text-xl sm:text-2xl">Community</h2>
                 </div>
-                <div className="py-5 font-[SatoshiLight] text-[13px] sm:text-lg">
+                <div className="py-5 font-[SatoshiMedium] text-[13px] sm:text-lg">
                     <Link className="block my-2" to='/'>Help Centers</Link>
                     <Link className="block my-2" to='/'>Patners</Link>
                     <Link className="block my-2" to='/'>Suggestion</Link>
@@ -50,7 +50,7 @@ export default function Footer(){
                 <div>
                     <h2 className="font-[ClashDisplaySemiBold] text-xl sm:text-2xl">Subscribe Us</h2>
                 </div>
-                <div className="py-5 font-[SatoshiLight] flex">
+                <div className="py-5 font-[SatoshiMedium] flex">
                     <input type='email' placeholder="Nft123@gmail.com" 
                     className="border placeholder-[#424141] outline-none border-bgPrimary
                     w-[70%] sm:w-[213px] bg-emailInputGrayIcons 

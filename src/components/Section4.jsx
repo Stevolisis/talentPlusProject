@@ -7,7 +7,7 @@ export default function Section4(){
                 <div className="text-neutral flex flex-col justify-center items-center">
                     <p className="text-[9px] sm:text-[13px] font-[SatoshiMedium]">JOIN OUR COMMUNITY</p>
                     <p className="py-1 sm:py-3 sm:px-12 md:px-40 text-2xl sm:text-[43px] leading-[30px] sm:leading-[50px] font-[ClashDisplayBold] text-center">Are you ready to connect with the future talent of the tech world</p>
-                    <p className="font-[SatoshiLight] text-[9px] sm:text-[13px]">Meet Up With Other Techstars And Grow Together</p>
+                    <p className="font-[SatoshiMedium] text-[9px] sm:text-[13px]">Meet Up With Other Techstars And Grow Together</p>
                 </div>
 
                 <div>

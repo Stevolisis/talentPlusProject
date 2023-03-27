@@ -12,7 +12,7 @@ export default function Section2(){
                         <h1 className='text-center lg:text-left lg:pr-12 font-[ClashDisplayBold] text-bgSecondary text-2xl sm:text-[2.7rem] leading-[35px] sm:leading-[55px]'>High quality video, audio & live classes</h1>
                     </div>
                     <div>
-                        <p className='text-center lg:text-left lg:pr-32 leading-4 sm:leading-6 py-3 text-[8px] sm:text-[13px] font-[SatoshiLight] text-txtLight'>High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No Standard Meaning For High Definition, Generally Any Standard Video Image</p>
+                        <p className='text-center lg:text-left lg:pr-32 leading-4 sm:leading-6 py-3 text-[8px] sm:text-[13px] font-[SatoshiMedium] text-txtLight'>High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No Standard Meaning For High Definition, Generally Any Standard Video Image</p>
                     </div>
                     <div className='py-5 lg:py-3'>
                         <button className='rounded bg-bgPrimary font-[SatoshiBold] py-2 sm:py-[12px] px-4 sm:px-[28px] text-[8px] sm:text-[12px] text-neutral'>View Courses</button>

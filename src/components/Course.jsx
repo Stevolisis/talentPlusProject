@@ -37,7 +37,7 @@ export default function Course({filter,courseLists}){
                                 </p>
                             </div>
 
-                            <div className="flex items-center font-[SatoshiMedium] text-[6px] sm:text-[13px] justify-between text-txtLight">
+                            <div className="pt-1 sm:pt-0 flex items-center font-[SatoshiMedium] text-[6px] sm:text-[13px] justify-between text-txtLight">
                                 <div className="flex items-center">
                                     <MdOutlineSchedule className="text-[6px] sm:text-[17px] mr-2"/>
                                     <p>{list.duration}</p>
@@ -49,7 +49,7 @@ export default function Course({filter,courseLists}){
                                 </div>
                             </div>
 
-                            <div className="flex justify-between items-center pt-4 sm:pt-7 pb-1 sm:pb-2">
+                            <div className="flex justify-between items-center pt-2 sm:pt-7 pb-1 sm:pb-2">
                                 <div className="flex items-center">
                                     <img className="w-5 h-5 sm:w-8 sm:h-8 rounded-full" src={list.author.profile_img} alt="victor"/>
                                     <p className="ml-1 sm:ml-2 text-[6px] sm:text-xs font-[SatoshiBold] text-black">{list.author.name}</p>

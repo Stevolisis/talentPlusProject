@@ -86,7 +86,7 @@ const [menuStatus,setMenuStatus]=useState(false);
                     </div>
 
                     <div className="flex-1 h-full pt-7 sm:pt-0">
-                        <img className="w-full h-full object-contain" src='/images/main2.png' alt="arrowmain"/>
+                        <img className="w-full h-full object-contain" src='/images/main.png' alt="arrowmain"/>
                         <div className="absolute top-[80vw] sm:top-[37vw] ml-0 lg:ml-[-100px] block">
                             <img className="w-20 h-20 sm:w-36 sm:h-36 object-contain" src='/images/arrowmain.png' alt="arrowmain"/>
                         </div>

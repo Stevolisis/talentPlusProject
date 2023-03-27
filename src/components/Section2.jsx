@@ -49,7 +49,7 @@ export default function Section2(){
 
                 <div className='flex-1 flex lg:items-end lg:pt-32'>
                     <div className='lg:ml-[-80px]'>
-                        <img className='' src='/images/Section2main.png' alt='Section2main'/>
+                        <img className='' src='/images/Section2main2.png' alt='Section2main'/>
                     </div>
                     
                 </div>

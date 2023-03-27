@@ -11,12 +11,12 @@ export default function Footer(){
                     <h2 className="py-2 font-[AmazingKids] text-3xl sm:text-4xl text-neutral">Tech Time</h2>
                     <p className="w-48 leading-6 text-[13px] font-[SatoshiLight]">Reach out to any one of our social media neworks</p>
                 </div>
-                <div className="py-4 flex justify-between text-emailInputGrayIcons">
-                    <FaFacebook className="text-[20px] sm:text-[24px]"/>
-                    <FaTwitter className="text-[20px] sm:text-[24px]"/>
-                    <FaYoutube className="text-[20px] sm:text-[24px]"/>
-                    <FaInstagram className="text-[20px] sm:text-[24px]"/>
-                    <FaDiscord className="text-[20px] sm:text-[24px]"/>
+                <div className="py-4 flex sm:justify-between text-emailInputGrayIcons">
+                    <FaFacebook className="mr-4 sm:mr-0 text-[22px] sm:text-[24px]"/>
+                    <FaTwitter className="mx-4 sm:mx-0 text-[22px] sm:text-[24px]"/>
+                    <FaYoutube className="mx-4 sm:mx-0 text-[22px] sm:text-[24px]"/>
+                    <FaInstagram className="mx-4 sm:mx-0 text-[22px] sm:text-[24px]"/>
+                    <FaDiscord className="mx-4 sm:mx-0 text-[22px] sm:text-[24px]"/>
                 </div>
             </div>
 

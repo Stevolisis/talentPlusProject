@@ -39,7 +39,8 @@ const [menuStatus,setMenuStatus]=useState(false);
 
                 <div className="flex justify-evenly items-center flex-col lg:flex-row">
                     
-                    <div className="flex-1 py-2 sm:py-16 lg:py-0 h-full flex flex-col justify-center items-center lg:items-start">
+                    <div className="flex-1 py-2 sm:py-16 lg:py-0 h-full
+                     flex flex-col justify-center items-center lg:items-start">
                         
                         <div className="absolute top-[390px] left-10 sm:left-12 ml-[-50px] block">
                             <img  className="w-7 h-7sm:w-[12px] sm:h-12 object-contain" src='/images/zigzagmain.png' alt="arrowmain"/>
@@ -51,12 +52,19 @@ const [menuStatus,setMenuStatus]=useState(false);
                             <img  className="w-2 h-2 object-contain" src='/images/circlemain.png' alt="arrowmain"/>
                         </div>
                         
+
+
+
                         <div className=" sm:px-0">
                             <p className="text-center lg:text-left leading-[44px] sm:leading-[63px] font-[ClashDisplayBold] text-[32px] sm:text-[3.05rem] text-neutral">Grow your skills to advance your career path</p>
                         </div>
-                        <div className="py-3 w-[400px] px-14 sm:px-0">
+                        <div className="py-3 sm:w-[400px] px-14 sm:px-0">
                             <p className="text-center lg:text-left text-[8px] sm:text-[13px] font-[SatoshiLight] text-[#E7E7E7]">Build Your Future With Our Quality Education. The Best And Largest All-In-One Online Tutoring Platform In The World</p>
                         </div>
+
+
+
+                        
                         <div className="py-3 sm:py-3 flex z-10">
                             <button className="flex items-center mr-5 font-[SatoshiMedium] text-[8px] sm:text-[13px] py-[6px] px-[18px] sm:py-[10px] sm:px-[28px] text-neutral border-2 border-txtHeaderLight rounded">
                                 Get Started Now <FiArrowUpRight className='ml-2 text-[13px] sm:text-[16px]'/></button>

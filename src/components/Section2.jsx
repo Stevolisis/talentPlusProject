@@ -53,6 +53,12 @@ export default function Section2(){
                     </div>
                     
                 </div>
+                <div className='absolute right-0 mb-[-500px]'>
+                    <img className='w-10' src='/images/sec213halfcircle.png'/>
+                </div>
+                <div className='absolute right-0 mt-[-450px]'>
+                    <img className='w-10' src='/images/sec213ziggreen.png'/>
+                </div>
             </section>
             
         </>

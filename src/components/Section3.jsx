@@ -6,7 +6,7 @@ export default function Section3(){
     return(
         <>
             <section className="bg-bgWhole px-4 sm:px-12 md:px-24 py-12 md:py-16 pb-7 lg:pb-16 flex items-center flex-col lg:flex-row">
-
+ 
                 <div className="flex-1">
                     <div>
                         <h1 className="text-center lg:text-left font-[ClashDisplayBold] text-bgSecondary text-2xl sm:text-[2.7rem] leading-[35px] sm:leading-[55px]">This Is Why We Are Best From Others</h1>
@@ -18,8 +18,8 @@ export default function Section3(){
                     <div className="py-5 sm:py-12">
                         <img className="w-full lg:w-[552px] lg:h-[354px]" src='/images/sec31.png' alt='Sec3'/>
                     </div>
-                    <div className='absolute left-5 mt-[-300px]'>
-                        <img className='w-12 mt-44' src='/images/sec213ziggreen.png' alt='section21'/>
+                    <div className='absolute left-5 ml-[-20px] sm:ml-0 sm:mt-[-300px]'>
+                        <img className='w-3 sm:w-6 mt-[420px] sm:mt-44' src='/images/greentriangle.png' alt='section21'/>
                     </div>
                 </div>
 
@@ -70,9 +70,9 @@ export default function Section3(){
 
 
                 </div>
-                <div className='absolute right-5 mb-[-410px]'>
-                        <img className='w-12 mt-44' src='/images/sec213ziggreen.png' alt='section21'/>
-                    </div>
+                <div className='absolute right-1 sm:right-5 sm:mb-[-410px]'>
+                        <img className='w-3 sm:w-5 mt-[800px] sm:mt-44' src='/images/purplecircle.png' alt='section21'/>
+                </div>
             </section>
         </>
     )

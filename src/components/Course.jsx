@@ -32,7 +32,7 @@ export default function Course({filter,courseLists}){
                             </div>
 
                             <div className="py-1 sm:py-2">
-                                <p className="line-clamp-2 text-[12px] sm:text-lg leading-4 sm:leading-5 font-[ClashDisplaySemiBold] text-bgSecondary">
+                                <p className="line-clamp-2 text-[12px] sm:text-lg leading-3 sm:leading-5 font-[ClashDisplaySemiBold] text-bgSecondary">
                                     {list.title}
                                 </p>
                             </div>
@@ -55,7 +55,7 @@ export default function Course({filter,courseLists}){
                                     <p className="ml-1 sm:ml-2 text-[6px] sm:text-xs font-[SatoshiBold] text-black">{list.author.name}</p>
                                 </div>
                                 <div className="flex items-center font-[ClashDisplaySemiBold] text-bgPrimary">
-                                    <FaDollarSign className="text-[8px] sm:text-[16px] font-bold"/>
+                                    <FaDollarSign className="text-[10px] mt-[-1px] sm:mt-0 sm:text-[16px] font-bold"/>
                                     <p className="ml-[-2px] sm:ml-[-4px] text-[10px] sm:text-base">{list.price}.00</p>
                                 </div>
                             </div>

@@ -5,26 +5,26 @@ export default function Footer(){
 
     return( 
     <>
-        <footer className="bg-bgSecondary text-neutral px-16 md:px-24 pt-28 pb-24 flex flex-wrap lg:flex-row justify-between">
-            <div className="mx-3"> 
+        <footer className="bg-bgSecondary text-neutral px-4 sm:px-16 md:px-24 pt-10 sm:pt-28 pb-24 flex flex-col sm:flex-row flex-wrap lg:flex-row justify-between">
+            <div className="sm:mx-3 my-4 sm:my-0"> 
                 <div>
-                    <h2 className="py-2 font-[AmazingKids] text-4xl text-neutral">Tech Time</h2>
+                    <h2 className="py-2 font-[AmazingKids] text-3xl sm:text-4xl text-neutral">Tech Time</h2>
                     <p className="w-48 leading-6 text-[13px] font-[SatoshiLight]">Reach out to any one of our social media neworks</p>
                 </div>
                 <div className="py-4 flex justify-between text-emailInputGrayIcons">
-                    <FaFacebook size={24}/>
-                    <FaTwitter size={24}/>
-                    <FaYoutube size={24}/>
-                    <FaInstagram size={24}/>
-                    <FaDiscord size={24}/>
+                    <FaFacebook className="text-[20px] sm:text-[24px]"/>
+                    <FaTwitter className="text-[20px] sm:text-[24px]"/>
+                    <FaYoutube className="text-[20px] sm:text-[24px]"/>
+                    <FaInstagram className="text-[20px] sm:text-[24px]"/>
+                    <FaDiscord className="text-[20px] sm:text-[24px]"/>
                 </div>
             </div>
 
-            <div className="mx-3">
+            <div className="sm:mx-3 my-4 sm:my-0">
                 <div>
-                    <h2 className="font-[ClashDisplaySemiBold] text-2xl">Useful Links</h2>
+                    <h2 className="font-[ClashDisplaySemiBold] text-xl sm:text-2xl">Useful Links</h2>
                 </div>
-                <div className="py-5 font-[SatoshiLight] text-lg">
+                <div className="py-5 font-[SatoshiLight] text-[13px] sm:text-lg">
                     <Link to='/' className="block my-2">Home</Link>
                     <Link to='/' className="block my-2">About Us</Link>
                     <Link to='/' className="block my-2">Our Courses</Link>
@@ -33,11 +33,11 @@ export default function Footer(){
                 </div>
             </div>
 
-            <div className="mx-3">
+            <div className="sm:mx-3 my-4 sm:my-0">
                 <div>
-                    <h2 className="font-[ClashDisplaySemiBold] text-2xl">Community</h2>
+                    <h2 className="font-[ClashDisplaySemiBold] text-xl sm:text-2xl">Community</h2>
                 </div>
-                <div className="py-5 font-[SatoshiLight] text-lg">
+                <div className="py-5 font-[SatoshiLight] text-[13px] sm:text-lg">
                     <Link className="block my-2" to='/'>Help Centers</Link>
                     <Link className="block my-2" to='/'>Patners</Link>
                     <Link className="block my-2" to='/'>Suggestion</Link>
@@ -46,15 +46,16 @@ export default function Footer(){
                 </div>
             </div>
 
-            <div className="mx-3">
+            <div className="sm:mx-3 my-4 sm:my-0">
                 <div>
-                    <h2 className="font-[ClashDisplaySemiBold] text-2xl">Subscribe Us</h2>
+                    <h2 className="font-[ClashDisplaySemiBold] text-xl sm:text-2xl">Subscribe Us</h2>
                 </div>
-                <div className="py-5 font-[SatoshiLight]">
+                <div className="py-5 font-[SatoshiLight] flex">
                     <input type='email' placeholder="Nft123@gmail.com" 
-                    className="border placeholder-[#424141] outline-none border-bgPrimary w-[213px] bg-emailInputGrayIcons 
+                    className="border placeholder-[#424141] outline-none border-bgPrimary
+                    w-[70%] sm:w-[213px] bg-emailInputGrayIcons 
                     py-[13px] px-5 md:py-2 md:px-3 text-[11px]"/>
-                    <button className=" bg-bgPrimary py-[14px] px-7 md:py-[9px] md:px-3 text-[11px] rounded-sm">Send Message</button>
+                    <button className=" bg-bgPrimary py-2 px-4 md:py-[9px] md:px-3 text-[9px] sm:text-[11px] rounded-sm">Send Message</button>
                 </div>
             </div>
         </footer>

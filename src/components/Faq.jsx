@@ -34,7 +34,7 @@ export default function Faq(){
     return(
         <>
             <div className="px-4 sm:px-20 md:px-48 lg:px-72 py-12 md:py-16">
-                <div className='hidden sm:absolute right-0 mt-[-80px]'>
+                <div className='hidden sm:block sm:absolute right-0 mt-[-80px]'>
                     <img className='w-12 md:w-14 ' src='/images/reviewright.png'/>
                 </div> 
                 <div className='absolute left-0 ml-[-13px] sm:ml-0 mt-[150px] sm:mt-[250px]'>
@@ -59,7 +59,7 @@ export default function Faq(){
                     }
                 </div>
                 
-                <div className='hidden sm:absolute left-0 mt-[-290px]'>
+                <div className='hidden sm:block sm:absolute left-0 mt-[-290px]'>
                     <img className='w-12 md:w-14 ' src='/images/reviewleft.png'/>
                 </div> 
             </div>

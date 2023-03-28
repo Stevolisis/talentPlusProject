@@ -1,28 +1,27 @@
-import { lazy, Suspense } from 'react';
-import Section1 from '../components/Section1';
-const Courses = lazy(() => import('../components/Courses'));
-const Faq = lazy(() => import('../components/Faq'));
-const Footer = lazy(() => import('../components/Footer'));
-const Patners = lazy(() => import('../components/Patners'));
-const Reviews = lazy(() => import('../components/Reviews'));
-const Section2 = lazy(() => import('../components/Section2'));
-const Section3 = lazy(() => import('../components/Section3'));
-const Section4 = lazy(() => import('../components/Section4'));
+import Courses from "../components/Courses";
+import Faq from "../components/Faq";
+import Footer from "../components/Footer";
+import Patners from "../components/Patners";
+import Reviews from "../components/Reviews";
+import Section1 from "../components/Section1";
+import Section2 from "../components/Section2";
+import Section3 from "../components/Section3";
+import Section4 from "../components/Section4";
 
-export default function Index() {
-  return (
-    <>
-    <Section1 />
-    <Suspense fallback={<div>Loading...</div>}>
-      <Patners />
-      <Section2 />
-      <Section3 />
-      <Courses />
-      <Reviews />
-      <Section4 />
-      <Faq />
-      <Footer />
-    </Suspense>
-    </>
-  );
+
+export default function Index(){
+
+    return(
+        <>
+            <Section1/>
+            <Patners/>
+            <Section2/>
+            <Section3/>
+            <Courses/>
+            <Reviews/>
+            <Section4/>
+            <Faq/>
+            <Footer/>
+        </>
+    )
 }

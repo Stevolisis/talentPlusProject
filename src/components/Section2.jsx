@@ -1,4 +1,4 @@
-import { MdOutlineDescription,MdSettingsInputAntenna, MdMenuBook, MdCancel, MdOutlineSchedule, MdOutlineTurnedInNot, MdOutlineRotateRight, MdOutlineLocalAtm, MdOutlineAccessTimeFilled, MdVolumeUp } from 'react-icons/md';
+import { MdOutlineDescription,MdSettingsInputAntenna, MdVolumeUp } from 'react-icons/md';
 
 export default function Section2(){
 

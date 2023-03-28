@@ -1,11 +1,12 @@
-React-Docker
+ 
+ React-Docker
 
 This project is a React application built with Vite, and it is Dockerized.
 Prerequisites
 
     Docker installed on your machine.
 
-Installation
+1. Installation
 
     Clone the repository:
         git clone https://github.com/your-username/project-name.git
@@ -13,7 +14,7 @@ Installation
     Build the Docker image:
         docker build -t project-name .
 
-Usage
+2. Usage
 
     Run the Docker container:
         docker run -p 3000:3000 project-name
@@ -24,7 +25,7 @@ Usage
 
     To stop the Docker container, press CTRL + C in your terminal.
 
-Contributing
+3. Contributing
 
 If you find any issues or have suggestions for improvement, please create a new issue or pull request.
 License

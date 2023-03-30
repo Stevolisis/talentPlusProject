@@ -1,39 +1,67 @@
- 
- React-Docker
 
-This project is a React application built with Vite, and it is Dockerized.
-Prerequisites
+# Landing Page Built with React(Vite),docker and TailwindCSS
 
-    Docker installed on your machine.
+This landing page is a React application built with Vite and styled with TailwindCSS. It provides a simple and responsive layout that can be used as a starting point for building a landing page or website.
 
-1. Installation
 
-    Clone the repository:
-        git clone https://github.com/your-username/project-name.git
 
-    Build the Docker image:
-        docker build -t project-name .
+## Tech Stack
 
-2. Usage
+**Client:** React and TailwindCSS
 
-    Run the Docker container:
-        docker run -p 3000:3000 project-name
 
-    Open your browser and navigate to http://localhost:3000
 
-    Start making changes to the code. The browser should automatically reload with the updated changes.
+## Prerequisites
 
-    To stop the Docker container, press CTRL + C in your terminal.
+Before running this application, you will need to have Node.js installed on your machine. You can download and install it from the official Node.js website: https://nodejs.org/en/download/
+Installation
 
-3. Contributing
+To install this application, follow these steps:
 
-If you find any issues or have suggestions for improvement, please create a new issue or pull request.
-License
+1. Clone this repository to your local machine:
+```bash
+git clone https://github.com/Stevolisis/talentPlusProject.git
+```
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgments
+2. Change into the project directory:
 
-    Vite - A fast development server and build tool for modern web apps.
-    React - A JavaScript library for building user interfaces.
-    Docker - A platform for developing, shipping, and running applications.
+```bash
+  cd talentPlusProject
+```
+3. Install the dependencies:
+```bash
+  npm install
+```
+### Usage
+
+To run the application, use the following command:
+```bash
+    npm run dev  
+```
+
+
+This will start a development server at http://localhost:3000, where you can view the application in your browser.
+## Documentation
+
+### Docker
+
+If you prefer to run this application using Docker, you can use the following steps:
+
+1. Build the Docker image:
+
+```bash
+  docker build -t docker-react .
+```
+2. Run the Docker container:
+```bash
+  docker run -p 3000:3000 -d docker-react
+```
+
+This will start a Docker container running the application, which you can access in your browser at http://localhost:3000.
+
+
+
+## Author
+
+- [@Stevolisis](https://www.github.com/Stevolisis)
 

@@ -23,9 +23,13 @@ const [menuStatus,setMenuStatus]=useState(false);
                         <Link to='/' className="ml-3 py-[12px] px-[28px] bg-neutral text-bgPrimary rounded">Enroll Now</Link>
                     </div>
                     <div className="block sm:hidden">
-                        {menuStatus ? <IoMdClose size={22} onClick={()=>setMenuStatus(!menuStatus)} className='cursor-pointer'/> : <FiMenu size={22} onClick={()=>setMenuStatus(!menuStatus)} className='cursor-pointer'/>}
+
+                        {menuStatus ? 
+                        <IoMdClose size={22} onClick={()=>setMenuStatus(!menuStatus)} className='cursor-pointer'/> 
+                        : <FiMenu size={22} onClick={()=>setMenuStatus(!menuStatus)} className='cursor-pointer'/>}
                     </div>
-                    {menuStatus&&
+
+                    {menuStatus &&
                     <div className="z-20 absolute right-2 top-24 bg-bgSecondary p-7 pt-10 w-[170px] rounded-md font-[SatoshiMedium] text-[13px]">
                         <Link to='/' className="block">Home</Link>
                         <Link to='/' className="block my-3 ">About Us</Link>
@@ -33,8 +37,8 @@ const [menuStatus,setMenuStatus]=useState(false);
                         <Link to='/' className="block my-3 ">Testimonial</Link>
                         <Link to='/' className="block my-3 ">Community</Link>
                         <Link to='/' className="block mt-3 py-2 px-3 font-[SatoshiMedium] text-center bg-neutral text-bgPrimary rounded">Enroll Now</Link>
-
                     </div>}
+
                 </div>
 
                 <div className="flex justify-evenly items-center flex-col lg:flex-row">
